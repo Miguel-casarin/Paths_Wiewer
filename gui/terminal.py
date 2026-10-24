@@ -29,7 +29,7 @@ class Terminal(ttk.Frame):
 
         self.after(self.interval_ms, self._consume_queue)
 
-    def consume_queue(self):
+    def _consume_queue(self):
         try:
             while True:
                 level, msg = self.que_shell.get_nowait()
@@ -38,7 +38,7 @@ class Terminal(ttk.Frame):
             pass
         self.after(self.interval_ms, self._consume_queue)
 
-    def write(self, msg, level):
+    def _write(self, msg, level):
         self.text.configure(state="normal")
         self.text.insert("end", msg + "\n", level)
         lines = int(self.text.index("end-1c").split(".")[0])

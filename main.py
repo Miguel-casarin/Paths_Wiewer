@@ -5,9 +5,10 @@ import pprint
 
 from gui import app
 from gui.shell import log_shell
-from process import readVerilog, ReadNetlist, editTCL, readSTA
+from process import readVerilog, ReadNetlist, editTCL, readSTA, getCones
 from run import runSTA, runSteps
 from utils import files, SaveFeatures, divide
+from make_dots import circuitDot
 
 NUMBER_THREADS = os.cpu_count() - 1
 
@@ -130,6 +131,20 @@ runner = runSteps.Run_Steps(
 )
 runner.run(step_tcls)
 
-pprint.pprint(SIZE_PROCESS)
 
-files.save_dict_as_json(SIZE_PROCESS, "size.json")
+# verifica se o .dot existe caso ele não exista um e criado em ./input
+dot_exists = files.file_exists("./input", f"{DESIGN}.dot")
+cone_exists = files.file_exists("./input", f"cones_{DESIGN}.json")
+
+if dot_exists:
+    pass
+else:
+    circuitDot.verilog_to_dot(f"{VERILOGS}/{DESIGN}.v", "./input")
+
+if cone_exists:
+    pass
+else:
+    getCones.mout_cones(LIBRARY, DESIGN, "./input")
+
+
+app.App(features_dict=features_dict, size_process=SIZE_PROCESS).mainloop()
