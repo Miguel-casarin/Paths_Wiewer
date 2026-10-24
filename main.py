@@ -147,4 +147,10 @@ else:
     getCones.mout_cones(LIBRARY, DESIGN, "./input")
 
 
-app.App(features_dict=features_dict, size_process=SIZE_PROCESS).mainloop()
+app.App(
+    features_dict=features_dict,
+    size_process=SIZE_PROCESS,
+    design=DESIGN,
+    design_inputs=design_inputs,
+    design_outputs=design_outputs,
+).mainloop()

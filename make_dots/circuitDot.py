@@ -58,8 +58,8 @@ def _pin_order(pins):
     return ins, outs
 
 
-def verilog_to_dot(verilog, out_dir="dot"):
-    """Lê o arquivo Verilog e salva f"{out_dir}/{design_name}.dot". Retorna o caminho do .dot."""
+def verilog_to_dot(verilog, out_dir):
+   
     verilog_p = Path(verilog)
     if verilog_p.is_file():
         verilog_path = verilog_p

@@ -10,7 +10,8 @@ from gui.tkPaths import PathsTab
 
 
 class App(tk.Tk):
-    def __init__(self, on_run=None, features_dict=None, size_process=None):
+    def __init__(self, on_run=None, features_dict=None, size_process=None,
+                 design=None, design_inputs=None, design_outputs=None):
         super().__init__()
         self.title("Gate Sizing")
         self.geometry("1000x700")
@@ -23,8 +24,8 @@ class App(tk.Tk):
         # ----- Abas (a primeira, Features, abre com o programa) -----
         self.notebook = ttk.Notebook(paned)
         self.tab_features = FeaturesTab(self.notebook, features_dict, size_process)
-        self.tab_cones = ConesTab(self.notebook)
-        self.tab_paths = PathsTab(self.notebook)
+        self.tab_cones = ConesTab(self.notebook, design, design_inputs, design_outputs)
+        self.tab_paths = PathsTab(self.notebook, design)
 
         self.notebook.add(self.tab_features, text="Features")
         self.notebook.add(self.tab_cones, text="Cones")
@@ -36,15 +37,12 @@ class App(tk.Tk):
         barra = ttk.Frame(bottom)
         barra.pack(fill="x", pady=(0, 4))
 
-        ttk.Label(barra, text="Design:").pack(side="left")
-        self.design_var = tk.StringVar()
-        entry = ttk.Entry(barra, textvariable=self.design_var, width=20)
-        entry.pack(side="left", padx=(4, 8))
-        entry.bind("<Return>", lambda e: self.rodar())
-
-        self.btn_rodar = ttk.Button(barra, text="Rodar", command=self.rodar)
-        self.btn_rodar.pack(side="left")
-        ttk.Button(barra, text="Limpar", command=lambda: self.terminal.clear()).pack(side="left", padx=6)
+        # O botão Rodar só existe se uma função on_run for passada
+        self.btn_rodar = None
+        if on_run is not None:
+            self.btn_rodar = ttk.Button(barra, text="Rodar", command=self.rodar)
+            self.btn_rodar.pack(side="left", padx=(0, 6))
+        ttk.Button(barra, text="Limpar", command=lambda: self.terminal.clear()).pack(side="left")
 
         self.terminal = Terminal(bottom, return_que_shell())
         self.terminal.pack(fill="both", expand=True)
@@ -54,16 +52,12 @@ class App(tk.Tk):
         log_shell("Aplicação iniciada.", "ok")
 
     def rodar(self):
-        if self.on_run is None:
-            log_shell("Nenhuma função configurada.", "warn")
-            return
         self.btn_rodar.configure(state="disabled")
-        design = self.design_var.get()  # lido aqui, na thread da interface
-        threading.Thread(target=self._worker, args=(design,), daemon=True).start()
+        threading.Thread(target=self._worker, daemon=True).start()
 
-    def _worker(self, design):
+    def _worker(self):
         try:
-            self.on_run(design)
+            self.on_run()
         except Exception as e:
             log_shell(f"Erro: {e}", "error")
         finally:
