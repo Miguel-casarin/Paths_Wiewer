@@ -11,3 +11,8 @@ def copy_rename(input_file: str, name_to_save: str, save_path: str):
 def save_dict_as_json(dict_to_save: str, json_to_save: str):
     with open(json_to_save, "w") as f:
         json.dump(dict_to_save, f, indent=4)
+
+def returns_cells_steps(priority_file: str) -> list:
+    with open(priority_file, "r") as file:
+        priority = [line.strip() for line in file]
+    return priority

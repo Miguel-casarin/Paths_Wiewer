@@ -6,8 +6,8 @@ import pprint
 from gui import app
 from gui.shell import log_shell
 from process import readVerilog, ReadNetlist, editTCL, readSTA
-from run import runSTA
-from utils import files, SaveFeatures
+from run import runSTA, runSteps
+from utils import files, SaveFeatures, divide
 
 NUMBER_THREADS = os.cpu_count() - 1
 
@@ -20,11 +20,14 @@ while True:
     print(f"File '{circuit}' not found in verilogs/. Try again.")
 
 DESIGN = circuit[:-2]
+PRIORITY_FILE = f"{DESIGN}_priority.txt"
 VERILOGS = "./verilogs"
 LIBRARY = "Nangate45_typ.lib"
 LIBRARY_PATH = "./library"
 TCL_PATH = "./tcl"
 TEMP_PATH = "./temp"
+
+SIZE_PROCESS = {}
 
 # inputs, outputs, cells, logic types
 try:
@@ -91,7 +94,42 @@ except Exception as error:
     print(f"[ERROR] TO READ GTK 0 :\n{error}")
     sys.exit(1)
 
-print(base_power)
-print(base_arrivals)
-print(base_paths)
+#######################
+# Executando os steps #
 
+# Lista de prioridades
+CELLS_TO_UPSIZE = files.returns_cells_steps(f"./input/{PRIORITY_FILE}")
+works_number = divide.define_threads(NUMBER_THREADS, CELLS_TO_UPSIZE)
+
+works_indexs = divide.particion_list(CELLS_TO_UPSIZE, works_number)
+steps_starter = divide.starter_steps(works_number, CELLS_TO_UPSIZE)
+
+# cria os tcls
+maker = runSteps.Make_TCL_Steps(
+    tcl_template=f"{TCL_PATH}/sizeParallel.tcl",
+    verilog_path=f"{VERILOGS}/{DESIGN}.v",
+    lib_path=f"{LIBRARY_PATH}/{LIBRARY}",
+    module=design_module,
+    inputs_list=design_inputs,
+    outputs_list=design_outputs,
+    cells_to_upsize=CELLS_TO_UPSIZE,
+    design=DESIGN,
+    temp_path=TEMP_PATH,
+)
+
+step_tcls = []
+for step, (start, end) in zip(steps_starter, works_indexs):
+    step_tcls.append(maker.build(step, start, end))
+
+# roda o OpenSTA em paralelo
+runner = runSteps.Run_Steps(
+    base_power=base_power,
+    base_arrivals=base_arrivals,
+    results=SIZE_PROCESS,
+    max_workers=NUMBER_THREADS,
+)
+runner.run(step_tcls)
+
+pprint.pprint(SIZE_PROCESS)
+
+files.save_dict_as_json(SIZE_PROCESS, "size.json")
