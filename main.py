@@ -5,7 +5,7 @@ import pprint
 
 from gui import app
 from gui.shell import log_shell
-from process import readVerilog, ReadNetlist, editTCL, readSTA, getCones, sizeOrder
+from process import readVerilog, ReadNetlist, editTCL, readSTA, getCones, mountPhats
 from run import runSTA, runSteps
 from utils import files, SaveFeatures, divide
 from make_dots import circuitDot
@@ -140,6 +140,7 @@ try:
     base_power = base.get_power()
     base_arrivals = base.get_arrival_times()
     base_paths = base.ocurence_by_paths()
+    base_all = base.get_all()   # baseline completo (vira o STEP 0 no _cumulativo.txt)
 except Exception as error:
     print(f"[ERROR] TO READ GTK 0 :\n{error}")
     sys.exit(1)
@@ -183,12 +184,22 @@ runner.run(step_tcls)
 
 # verifica se o .dot existe caso ele não exista um e criado em ./input
 dot_exists = files.file_exists("./input", f"{DESIGN}.dot")
+paths_exists = files.file_exists("./input", f"{DESIGN}_cumulativo.txt")
 cone_exists = files.file_exists("./input", f"cones_{DESIGN}.json")
 
 if dot_exists:
     pass
 else:
     circuitDot.verilog_to_dot(f"{VERILOGS}/{DESIGN}.v", "./input")
+
+if paths_exists:
+    pass
+else:
+    # usa o proprio SIZE_PROCESS (ja tem dif_power, pct_arrival etc.), so le, nao altera
+    mountPhats.write_paths_txt(
+        mountPhats.build_steps(SIZE_PROCESS, base_all),
+        f"./input/{DESIGN}_cumulativo.txt",
+    )
 
 if cone_exists:
     pass

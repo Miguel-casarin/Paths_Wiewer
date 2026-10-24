@@ -1,5 +1,67 @@
 import re
 
+# ---------------------------------------------------------------------------
+# helpers compartilhados (usados pelos metodos novos do Read_sta e do Read_steps)
+# ---------------------------------------------------------------------------
+_RISE = {"^": "up", "v": "down"}
+
+_PAT_CELL = re.compile(r"(_\d+_)/")
+_PAT_ARROW_CELL = re.compile(r"([\^v])\s+_\d+_/")
+_PAT_IN = re.compile(r"-?\d+\.\d+\s+-?\d+\.\d+\s+([v^])\s+(\S+)\s+\(in\)")
+_PAT_OUT = re.compile(r"-?\d+\.\d+\s+-?\d+\.\d+\s+([v^])\s+(\S+)\s+\(out\)")
+
+
+def _parse_path_details(text: str) -> dict:
+    """
+    Le um texto de STA (baseline inteiro ou o texto de um step) e devolve,
+    para cada caminho (1, 2, 3 ...):
+      - rises:       ["up", "down", ...] uma transicao por celula (mesma ordem de get_cells)
+      - input/output: nome das portas (ex.: "N6", "N23")
+      - rise_input / rise_output: "up" | "down" | None
+    """
+    rises, rise_input, rise_output = {}, {}, {}
+    inputs, outputs = {}, {}
+    path_id = 0
+
+    for line in text.splitlines():
+        line = line.strip()
+
+        if line.startswith("Startpoint:"):
+            path_id += 1
+            rises[path_id] = []
+            rise_input[path_id] = None
+            rise_output[path_id] = None
+            inputs[path_id] = None
+            outputs[path_id] = None
+            continue
+
+        if path_id == 0:
+            continue
+
+        m = _PAT_IN.match(line)
+        if m:
+            rise_input[path_id] = _RISE[m.group(1)]
+            inputs[path_id] = m.group(2)
+
+        m = _PAT_OUT.match(line)
+        if m:
+            rise_output[path_id] = _RISE[m.group(1)]
+            outputs[path_id] = m.group(2)
+
+        if _PAT_CELL.search(line):
+            a = _PAT_ARROW_CELL.search(line)
+            # None se a linha da celula nao tiver ^/v, assim rises sempre alinha com cells
+            rises[path_id].append(_RISE[a.group(1)] if a else None)
+
+    return {
+        "rises": rises,
+        "rise_input": rise_input,
+        "rise_output": rise_output,
+        "input": inputs,
+        "output": outputs,
+    }
+
+
 class Read_sta:
     def __init__(self, sta_output: str):
         self.sta_output = sta_output
@@ -82,6 +144,45 @@ class Read_sta:
         if match:
             return float(match.group(1))
         return None
+
+    # ------------------------------------------------------------------
+    # NOVOS (baseline / gtk0): mesmos campos que o Read_steps tem por step
+    # ------------------------------------------------------------------
+    def get_rises(self) -> dict:
+        # {1: ["up", "down", ...], 2: [...]} -> transicao de cada celula, na ordem de get_cells()
+        return _parse_path_details(self.sta_output)["rises"]
+
+    def get_input(self) -> dict:
+        # {1: "N6", 2: "N30", ...}
+        return _parse_path_details(self.sta_output)["input"]
+
+    def get_output(self) -> dict:
+        # {1: "N23", 2: "N431", ...}
+        return _parse_path_details(self.sta_output)["output"]
+
+    def get_rise_input(self) -> dict:
+        # {1: "down", 2: "up", ...}
+        return _parse_path_details(self.sta_output)["rise_input"]
+
+    def get_rise_output(self) -> dict:
+        # {1: "up", 2: "down", ...}
+        return _parse_path_details(self.sta_output)["rise_output"]
+
+    def get_all(self) -> dict:
+        # equivalente ao get_all do Read_steps, mas para o baseline (sem step/cell)
+        details = _parse_path_details(self.sta_output)
+
+        return {
+            "cell": 0,  # baseline = step 0, nenhuma celula dimensionada
+            "power": self.get_power(),
+            "arrival_times": self.get_arrival_times(),
+            "arrivals": self.get_cells(),
+            "input": details["input"],
+            "output": details["output"],
+            "rises": details["rises"],
+            "rise_input": details["rise_input"],
+            "rise_output": details["rise_output"],
+        }
 
     
 class Read_steps:
@@ -240,6 +341,24 @@ class Read_steps:
 
         return by_step
 
+    # ------------------------------------------------------------------
+    # NOVOS: transicoes (up/down) por step
+    # ------------------------------------------------------------------
+    def get_rises(self):
+        # {step: {path_id: ["up", "down", ...]}} alinhado com get_cells()
+        return {step: _parse_path_details(data["text"])["rises"]
+                for step, data in self.steps.items()}
+
+    def get_rise_input(self):
+        # {step: {path_id: "up" | "down" | None}}
+        return {step: _parse_path_details(data["text"])["rise_input"]
+                for step, data in self.steps.items()}
+
+    def get_rise_output(self):
+        # {step: {path_id: "up" | "down" | None}}
+        return {step: _parse_path_details(data["text"])["rise_output"]
+                for step, data in self.steps.items()}
+
 
     def get_power(self):
         by_step = {}
@@ -319,6 +438,7 @@ class Read_steps:
                 arrivals[path_id] = current_arrival
 
             power = pattern_power.search(data["text"])
+            details = _parse_path_details(data["text"])
 
             by_step[step] = {
                 "cell": data["cell"],
@@ -328,7 +448,11 @@ class Read_steps:
                 "input": inputs,
                 "output": outputs,
                 "previos": 0,
-                "curente": 0
+                "curente": 0,
+                # novos campos (os de cima ficam como estavam)
+                "rises": details["rises"],
+                "rise_input": details["rise_input"],
+                "rise_output": details["rise_output"],
             }
 
         return by_step

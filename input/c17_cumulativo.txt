@@ -1,0 +1,63 @@
+STEP 0
+CELL: 0
+ARRIVAL1:
+N6v -> _5_v -> _9_^ -> N23^
+
+ARRIVAL2:
+N6v -> _5_v -> _7_^ -> N22^
+
+
+STEP 3
+CELL: _4_
+ARRIVAL1:
+N6v -> _5_v -> _9_^ -> N23^
+
+ARRIVAL2:
+N3^ -> _5_^ -> _7_v -> N22v
+
+
+STEP 2
+CELL: _9_
+ARRIVAL1:
+N6v -> _5_v -> _9_^ -> N23^
+
+ARRIVAL2:
+N6v -> _5_v -> _7_^ -> N22^
+
+
+STEP 4
+CELL: _6_
+ARRIVAL1:
+N6v -> _5_v -> _9_^ -> N23^
+
+ARRIVAL2:
+N3^ -> _5_^ -> _7_v -> N22v
+
+
+STEP 6
+CELL: _5_
+ARRIVAL1:
+N6v -> _5_v -> _9_^ -> N23^
+
+ARRIVAL2:
+N6v -> _5_v -> _7_^ -> N22^
+
+
+STEP 5
+CELL: _8_
+ARRIVAL1:
+N6v -> _5_v -> _9_^ -> N23^
+
+ARRIVAL2:
+N3^ -> _5_^ -> _7_v -> N22v
+
+
+STEP 1
+CELL: _7_
+ARRIVAL1:
+N6v -> _5_v -> _9_^ -> N23^
+
+ARRIVAL2:
+N6v -> _5_v -> _7_^ -> N22^
+
+
