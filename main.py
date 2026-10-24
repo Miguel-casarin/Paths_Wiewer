@@ -5,10 +5,11 @@ import pprint
 
 from gui import app
 from gui.shell import log_shell
-from process import readVerilog, ReadNetlist, editTCL, readSTA, getCones
+from process import readVerilog, ReadNetlist, editTCL, readSTA, getCones, sizeOrder
 from run import runSTA, runSteps
 from utils import files, SaveFeatures, divide
 from make_dots import circuitDot
+from process.sizeOrder import Size_order
 
 NUMBER_THREADS = os.cpu_count() - 1
 
@@ -47,6 +48,54 @@ try:
 except Exception as error:
     print(f"[ERROR] TO GET NETLIST CELLS INFO :\n{error}")
     sys.exit(1)
+
+priority_exists = files.file_exists("./input", PRIORITY_FILE)
+
+testes = []
+
+if priority_exists:
+    pass
+else:
+    for cell_id, cell_type in zip(cells_ids, cells_types):
+        if cell_type == "OAI33":
+            continue  
+        testes.append(cell_id)
+
+    works_list = divide.define_threads(NUMBER_THREADS, testes)
+
+    divide_list = divide.particion_list(testes, works_list)
+    divide_sta = divide.starter_steps(works_list, testes)
+
+    # gtk 0
+    files.copy_rename(f"{TCL_PATH}/timing.tcl", f"starter_{DESIGN}.tcl", TEMP_PATH)
+    starter_tcl = f"{TEMP_PATH}/starter_{DESIGN}.tcl"
+
+    try:
+        editTCL.edit_liberty(starter_tcl, f"{LIBRARY_PATH}/{LIBRARY}")
+        editTCL.edit_verilog(starter_tcl, f"{VERILOGS}/{DESIGN}.v")
+        editTCL.edit_link_design(starter_tcl, design_module)
+        editTCL.parse_inputs(starter_tcl, design_inputs)
+        editTCL.parse_outputs(starter_tcl, design_outputs)
+        editTCL.paths_total(starter_tcl, len(design_outputs))
+    except Exception as error:
+        print(f"[ERROR] TO EDIT BASE TCL :\n{error}")
+        sys.exit(1)
+
+    starter_output = runSTA.run_sta(starter_tcl)
+
+    try:
+        starter = readSTA.Read_sta(starter_output)
+        starter_arrivals = starter.get_arrival_times()
+    except Exception as error:
+        print(f"[ERROR] TO READ BASE :\n{error}")
+        sys.exit(1)
+
+    starter_arrivals = readSTA.Read_sta(starter_output).get_arrival_times()
+
+    so = Size_order(DESIGN, starter_arrivals, cells=testes, max_workers=works_list)
+    differences = so.run()
+    so.save_priority(differences) 
+
 
 # coletando as features
 features_dict = SaveFeatures.Save_features()
