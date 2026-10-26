@@ -2,14 +2,17 @@ import os
 import json
 import sys
 import pprint
+import time
 
 from gui import app
 from gui.shell import log_shell
-from process import readVerilog, ReadNetlist, editTCL, readSTA, getCones, mountPhats
+from process import readVerilog, ReadNetlist, editTCL, readSTA, getCones, mountPhats, impact
 from run import runSTA, runSteps
 from utils import files, SaveFeatures, divide
 from make_dots import circuitDot
 from process.sizeOrder import Size_order
+
+s = time.perf_counter()
 
 NUMBER_THREADS = os.cpu_count() - 1
 
@@ -28,6 +31,7 @@ LIBRARY = "Nangate45_typ.lib"
 LIBRARY_PATH = "./library"
 TCL_PATH = "./tcl"
 TEMP_PATH = "./temp"
+OUT_PATH = "./out"
 
 SIZE_PROCESS = {}
 
@@ -206,6 +210,18 @@ if cone_exists:
 else:
     getCones.mout_cones(LIBRARY, DESIGN, "./input")
 
+base_reader = readSTA.Read_steps(f"STEP: 0\n\n{gtk0_output}")
+baseline = base_reader.get_all()
+impact.apply_all_impacts(baseline, base_power, base_arrivals)   # diferenças contra ele mesmo = 0
+baseline[0]["paths"] = base_reader.paths()[0]
+SIZE_PROCESS[0] = baseline[0]
+
+f = time.perf_counter()
+print(f"Runing Time: {f - s:.2f} s")
+
+features_data = features_dict if isinstance(features_dict, dict) else vars(features_dict)
+files.save_dict_as_json(features_data, f"{OUT_PATH}/features_{DESIGN}.json")
+files.save_dict_as_json(SIZE_PROCESS, f"{OUT_PATH}/steps_{DESIGN}.json")
 
 app.App(
     features_dict=features_dict,
@@ -214,3 +230,4 @@ app.App(
     design_inputs=design_inputs,
     design_outputs=design_outputs,
 ).mainloop()
+

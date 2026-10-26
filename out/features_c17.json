@@ -1,0 +1,52 @@
+{
+    "nets_and_topology": {
+        "_4_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 2,
+            "Cones_ocurrence": 1
+        },
+        "_5_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 2,
+            "Cones_ocurrence": 2
+        },
+        "_6_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 2,
+            "Cones_ocurrence": 2
+        },
+        "_7_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 1,
+            "Cones_ocurrence": 1
+        },
+        "_8_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 2,
+            "Cones_ocurrence": 1
+        },
+        "_9_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 1,
+            "Cones_ocurrence": 1
+        }
+    }
+}
