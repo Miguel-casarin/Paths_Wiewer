@@ -1,56 +1,64 @@
 import najaeda
+import threading
 from collections import deque
 from najaeda import netlist, naja
 
+_cache = {}
+_lock = threading.Lock()
+
+
+def _get_design_data(verilog: str, library: str):
+    key = (verilog, library)
+    with _lock:
+        if key in _cache:
+            return _cache[key]
+
+        netlist.reset()
+        netlist.load_liberty([library])
+        top_najaeda = netlist.load_verilog([verilog])
+
+        universe = naja.NLUniverse.get()
+        top = universe.getTopDesign()
+
+        terms = {}
+        for term in top.getBitTerms():
+            net = term.getNet()
+            if net:
+                terms[(term.getName(), term.getDirection())] = net
+
+        inst_inputs = {}
+        net_drivers = {}
+        for inst in top.getInstances():
+            name = inst.getName()
+            in_nets = set()
+            for term in inst.getInstTerms():
+                net = term.getNet()
+                if not net:
+                    continue
+                if term.getDirection() == naja.SNLTerm.Direction.Input:
+                    in_nets.add(net)
+                elif term.getDirection() == naja.SNLTerm.Direction.Output:
+                    net_drivers.setdefault(net, set()).add(name)
+            inst_inputs[name] = in_nets
+
+        _cache[key] = (terms, inst_inputs, net_drivers)
+        return _cache[key]
+
 
 def get_cones(output: str, input: str, verilog: str, libraey: str) -> dict:
+    terms, inst_inputs, net_drivers = _get_design_data(verilog, libraey)
 
-    # carregando o najaeda 
-    netlist.reset()
-    netlist.load_liberty([libraey])
-    top_najaeda = netlist.load_verilog([verilog])
-
-    universe = naja.NLUniverse.get()
-    top = universe.getTopDesign()
-
-    # contador usado para salvar os steps
-    step = 1
-    cone_paths = {}
-
-    # localiza as nets da saída primária (PO) e da entrada primária (PI) pelo nome
-    out_net = None
-    in_net = None
-    for term in top.getBitTerms():
-        net = term.getNet()
-        if not net:
-            continue
-        if term.getName() == output and term.getDirection() == naja.SNLTerm.Direction.Output:
-            out_net = net
-        if term.getName() == input and term.getDirection() == naja.SNLTerm.Direction.Input:
-            in_net = net
+    out_net = terms.get((output, naja.SNLTerm.Direction.Output))
+    in_net = terms.get((input, naja.SNLTerm.Direction.Input))
 
     if out_net is None:
         raise ValueError(f"Saída '{output}' não encontrada")
     if in_net is None:
         raise ValueError(f"Entrada '{input}' não encontrada")
 
-    # mapeia:
-    #  - inst_name -> conjunto de nets de entrada
-    #  - net -> instâncias que a dirigem (fanin)
-    inst_inputs = {}
-    net_drivers = {}
-    for inst in top.getInstances():
-        name = inst.getName()
-        in_nets = set()
-        for term in inst.getInstTerms():
-            net = term.getNet()
-            if not net:
-                continue
-            if term.getDirection() == naja.SNLTerm.Direction.Input:
-                in_nets.add(net)
-            elif term.getDirection() == naja.SNLTerm.Direction.Output:
-                net_drivers.setdefault(net, set()).add(name)
-        inst_inputs[name] = in_nets
+    # contador usado para salvar os steps
+    step = 1
+    cone_paths = {}
 
     # percorre do PO para trás até o PI (DFS iterativo)
     # cada item da pilha: (net atual, células já percorridas, da saída para a entrada)

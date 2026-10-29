@@ -3,10 +3,11 @@ import json
 import sys
 import pprint
 import time
+from concurrent.futures import ThreadPoolExecutor
 
 from gui import app
 from gui.shell import log_shell
-from process import readVerilog, ReadNetlist, editTCL, readSTA, getCones, mountPhats, impact
+from process import readVerilog, ReadNetlist, editTCL, readSTA, getCones, mountPhats, impact, pathCones, conesTXT
 from run import runSTA, runSteps
 from utils import files, SaveFeatures, divide
 from make_dots import circuitDot
@@ -215,6 +216,26 @@ baseline = base_reader.get_all()
 impact.apply_all_impacts(baseline, base_power, base_arrivals)   # diferenças contra ele mesmo = 0
 baseline[0]["paths"] = base_reader.paths()[0]
 SIZE_PROCESS[0] = baseline[0]
+
+geral = {out: {} for out in design_outputs}
+verilog_file = f"{VERILOGS}/{DESIGN}.v"
+library_file = f"{LIBRARY_PATH}/{LIBRARY}"
+
+def fetch_cone(out, inp):
+    return out, inp, pathCones.get_cones(out, inp, verilog_file, library_file)
+
+with ThreadPoolExecutor(max_workers=NUMBER_THREADS) as executor:
+    futures = [
+        executor.submit(fetch_cone, out, inp)
+        for out in design_outputs
+        for inp in design_inputs
+    ]
+    for future in futures:
+        out, inp, t = future.result()
+        geral[out][inp] = t
+
+pprint.pprint(geral)
+conesTXT.save_cones_txt(geral, f"{OUT_PATH}/cones_paths_{DESIGN}.txt")
 
 f = time.perf_counter()
 print(f"Runing Time: {f - s:.2f} s")
