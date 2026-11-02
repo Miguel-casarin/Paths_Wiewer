@@ -1,0 +1,7123 @@
+{
+    "nets_and_topology": {
+        "_0739_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.658423
+        },
+        "_0740_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.659913
+        },
+        "_0741_": {
+            "LOGIC-TYPE": "NAND4",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 8,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.663842
+        },
+        "_0742_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.714471
+        },
+        "_0743_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.59521
+        },
+        "_0744_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.63809
+        },
+        "_0745_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.620338
+        },
+        "_0746_": {
+            "LOGIC-TYPE": "NOR3",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.658423
+        },
+        "_0747_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.659913
+        },
+        "_0748_": {
+            "LOGIC-TYPE": "NAND4",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 8,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.616298
+        },
+        "_0749_": {
+            "LOGIC-TYPE": "NOR3",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 7,
+            "Cones_ocurrence": 3,
+            "capacitance": 2.601852
+        },
+        "_0750_": {
+            "LOGIC-TYPE": "NAND4",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.670716
+        },
+        "_0751_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.70023
+        },
+        "_0752_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 15,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.658423
+        },
+        "_0753_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 16,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.663842
+        },
+        "_0754_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.714471
+        },
+        "_0755_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.292464
+        },
+        "_0756_": {
+            "LOGIC-TYPE": "OAI22",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.651345
+        },
+        "_0757_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.626352
+        },
+        "_0758_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.616298
+        },
+        "_0759_": {
+            "LOGIC-TYPE": "NOR3",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 17,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.330896
+        },
+        "_0760_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.231222
+        },
+        "_0761_": {
+            "LOGIC-TYPE": "OAI22",
+            "FANIN": 4,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 18,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0762_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 15,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0763_": {
+            "LOGIC-TYPE": "NAND3",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.670716
+        },
+        "_0764_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.411453
+        },
+        "_0765_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0766_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_0767_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0768_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 4.073503
+        },
+        "_0769_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_0770_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0771_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0772_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 5,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.651345
+        },
+        "_0773_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 4,
+            "Cones_ocurrence": 4,
+            "capacitance": 7.503658
+        },
+        "_0774_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_0775_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0776_": {
+            "LOGIC-TYPE": "NOR4",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.651345
+        },
+        "_0777_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_0778_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0779_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.411453
+        },
+        "_0780_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0781_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0782_": {
+            "LOGIC-TYPE": "OAI22",
+            "FANIN": 4,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 18,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0783_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0784_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0785_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 15,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0786_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 15,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0787_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_0788_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0789_": {
+            "LOGIC-TYPE": "NOR3",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.626352
+        },
+        "_0790_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.676853
+        },
+        "_0791_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_0792_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0793_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_0794_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0795_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.411453
+        },
+        "_0796_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0797_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.411453
+        },
+        "_0798_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0799_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.626352
+        },
+        "_0800_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.411453
+        },
+        "_0801_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0802_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_0803_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0804_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.651345
+        },
+        "_0805_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_0806_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 15,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0807_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 15,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0808_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_0809_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0810_": {
+            "LOGIC-TYPE": "OAI211",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.664199
+        },
+        "_0811_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.411453
+        },
+        "_0812_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0813_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.651345
+        },
+        "_0814_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_0815_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0816_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0817_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.626352
+        },
+        "_0818_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 15,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0819_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0824_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 33,
+            "capacitance": 2.659246
+        },
+        "_0825_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 18,
+            "Cones_ocurrence": 49,
+            "capacitance": 16.647409000000003
+        },
+        "_0826_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 17,
+            "Cones_ocurrence": 35,
+            "capacitance": 16.279212
+        },
+        "_0827_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 11,
+            "Cones_ocurrence": 30,
+            "capacitance": 5.584329
+        },
+        "_0828_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 10,
+            "Cones_ocurrence": 28,
+            "capacitance": 3.414701
+        },
+        "_0829_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 10,
+            "Cones_ocurrence": 28,
+            "capacitance": 3.235582
+        },
+        "_0830_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 28,
+            "capacitance": 3.313395
+        },
+        "_0831_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 4.464898
+        },
+        "_0832_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 34,
+            "capacitance": 5.178068000000001
+        },
+        "_0833_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 31,
+            "capacitance": 6.522318
+        },
+        "_0834_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 10,
+            "Cones_ocurrence": 29,
+            "capacitance": 8.292634999999999
+        },
+        "_0835_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 39,
+            "capacitance": 6.600389999999999
+        },
+        "_0836_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 36,
+            "capacitance": 8.089958
+        },
+        "_0837_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 11,
+            "Cones_ocurrence": 34,
+            "capacitance": 7.126183
+        },
+        "_0838_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 13,
+            "Cones_ocurrence": 37,
+            "capacitance": 6.847446
+        },
+        "_0839_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 12,
+            "Cones_ocurrence": 35,
+            "capacitance": 6.234493
+        },
+        "_0840_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 38,
+            "capacitance": 9.783346000000002
+        },
+        "_0841_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 35,
+            "capacitance": 3.853369
+        },
+        "_0842_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 39,
+            "capacitance": 9.962655000000002
+        },
+        "_0843_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 35,
+            "capacitance": 3.8831309999999997
+        },
+        "_0844_": {
+            "LOGIC-TYPE": "NAND3",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 34,
+            "capacitance": 5.764209
+        },
+        "_0845_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 32,
+            "capacitance": 3.2542340000000003
+        },
+        "_0846_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 13,
+            "Cones_ocurrence": 44,
+            "capacitance": 4.870164
+        },
+        "_0847_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 16,
+            "Cones_ocurrence": 49,
+            "capacitance": 2.5649450000000003
+        },
+        "_0848_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 15,
+            "Cones_ocurrence": 49,
+            "capacitance": 12.773181999999998
+        },
+        "_0849_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 10,
+            "Cones_ocurrence": 37,
+            "capacitance": 1.573439
+        },
+        "_0850_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 12,
+            "Cones_ocurrence": 42,
+            "capacitance": 4.258278
+        },
+        "_0851_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 40,
+            "capacitance": 1.647003
+        },
+        "_0852_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 12,
+            "Cones_ocurrence": 40,
+            "capacitance": 8.121906
+        },
+        "_0853_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 10,
+            "Cones_ocurrence": 37,
+            "capacitance": 3.2231680000000003
+        },
+        "_0854_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 11,
+            "Cones_ocurrence": 38,
+            "capacitance": 3.401983
+        },
+        "_0855_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 41,
+            "capacitance": 8.488307
+        },
+        "_0856_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 10,
+            "Cones_ocurrence": 38,
+            "capacitance": 4.898363
+        },
+        "_0857_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 42,
+            "capacitance": 6.344436999999999
+        },
+        "_0858_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 39,
+            "capacitance": 4.88522
+        },
+        "_0859_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 11,
+            "Cones_ocurrence": 39,
+            "capacitance": 4.181634
+        },
+        "_0860_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 41,
+            "capacitance": 7.411216
+        },
+        "_0861_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 6,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 43,
+            "capacitance": 10.379328999999998
+        },
+        "_0862_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 40,
+            "capacitance": 3.300941
+        },
+        "_0863_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 44,
+            "capacitance": 5.177918999999999
+        },
+        "_0864_": {
+            "LOGIC-TYPE": "NAND3",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 39,
+            "capacitance": 1.655378
+        },
+        "_0865_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 40,
+            "capacitance": 3.1773100000000003
+        },
+        "_0866_": {
+            "LOGIC-TYPE": "OAI221",
+            "FANIN": 5,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 11,
+            "Cones_ocurrence": 39,
+            "capacitance": 2.597661
+        },
+        "_0867_": {
+            "LOGIC-TYPE": "AOI22",
+            "FANIN": 4,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 10,
+            "Cones_ocurrence": 38,
+            "capacitance": 4.894875
+        },
+        "_0868_": {
+            "LOGIC-TYPE": "OAI33",
+            "FANIN": 6,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 37,
+            "capacitance": 8.371652000000001
+        },
+        "_0869_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 6,
+            "Cones_ocurrence": 6,
+            "capacitance": 1.630225
+        },
+        "_0870_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 38,
+            "capacitance": 6.060108
+        },
+        "_0871_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 11,
+            "Cones_ocurrence": 39,
+            "capacitance": 9.371825999999999
+        },
+        "_0872_": {
+            "LOGIC-TYPE": "AND3",
+            "FANIN": 3,
+            "FANOUT": 6,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 12,
+            "Cones_ocurrence": 42,
+            "capacitance": 10.059906
+        },
+        "_0873_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 40,
+            "capacitance": 6.480492
+        },
+        "_0874_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 40,
+            "capacitance": 6.441726
+        },
+        "_0875_": {
+            "LOGIC-TYPE": "NOR3",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 42,
+            "capacitance": 5.177237
+        },
+        "_0876_": {
+            "LOGIC-TYPE": "NOR4",
+            "FANIN": 4,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 39,
+            "capacitance": 8.285491
+        },
+        "_0877_": {
+            "LOGIC-TYPE": "NAND4",
+            "FANIN": 4,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 36,
+            "capacitance": 4.939845
+        },
+        "_0878_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 32,
+            "capacitance": 3.27646
+        },
+        "_0879_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 12,
+            "Cones_ocurrence": 34,
+            "capacitance": 3.315544
+        },
+        "_0880_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 34,
+            "capacitance": 3.3038819999999998
+        },
+        "_0881_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 34,
+            "capacitance": 3.228623
+        },
+        "_0882_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 40,
+            "capacitance": 5.830171
+        },
+        "_0883_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 35,
+            "capacitance": 5.028944
+        },
+        "_0884_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 35,
+            "capacitance": 5.113325
+        },
+        "_0885_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 41,
+            "capacitance": 5.831816
+        },
+        "_0886_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 36,
+            "capacitance": 4.942838999999999
+        },
+        "_0887_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 11,
+            "Cones_ocurrence": 35,
+            "capacitance": 5.019621000000001
+        },
+        "_0888_": {
+            "LOGIC-TYPE": "AOI221",
+            "FANIN": 5,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 32,
+            "capacitance": 3.235124
+        },
+        "_0889_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 10,
+            "Cones_ocurrence": 32,
+            "capacitance": 3.1989599999999996
+        },
+        "_0890_": {
+            "LOGIC-TYPE": "OAI221",
+            "FANIN": 5,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 6,
+            "capacitance": 9.270092
+        },
+        "_0891_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 13,
+            "Cones_ocurrence": 32,
+            "capacitance": 6.847446
+        },
+        "_0892_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 12,
+            "Cones_ocurrence": 30,
+            "capacitance": 5.344645
+        },
+        "_0893_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 34,
+            "capacitance": 9.990351
+        },
+        "_0894_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 32,
+            "capacitance": 9.155873
+        },
+        "_0895_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 6,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 33,
+            "capacitance": 11.385395
+        },
+        "_0896_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 31,
+            "capacitance": 2.665054
+        },
+        "_0897_": {
+            "LOGIC-TYPE": "AND3",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 29,
+            "capacitance": 3.290551
+        },
+        "_0898_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.246035
+        },
+        "_0899_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 11,
+            "Cones_ocurrence": 29,
+            "capacitance": 3.277697
+        },
+        "_0900_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 12,
+            "Cones_ocurrence": 29,
+            "capacitance": 3.248436
+        },
+        "_0901_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 35,
+            "capacitance": 7.538156
+        },
+        "_0902_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 30,
+            "capacitance": 4.978843
+        },
+        "_0903_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 36,
+            "capacitance": 5.9474350000000005
+        },
+        "_0904_": {
+            "LOGIC-TYPE": "AOI22",
+            "FANIN": 4,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 29,
+            "capacitance": 3.266956
+        },
+        "_0905_": {
+            "LOGIC-TYPE": "OAI22",
+            "FANIN": 4,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 29,
+            "capacitance": 4.9582049999999995
+        },
+        "_0906_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 29,
+            "capacitance": 4.952738
+        },
+        "_0907_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 28,
+            "capacitance": 4.943809
+        },
+        "_0908_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.411453
+        },
+        "_0909_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0910_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_0911_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 16,
+            "Cones_ocurrence": 7,
+            "capacitance": 14.372729
+        },
+        "_0912_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 15,
+            "Cones_ocurrence": 7,
+            "capacitance": 16.943358000000003
+        },
+        "_0913_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 14,
+            "Cones_ocurrence": 7,
+            "capacitance": 16.958286
+        },
+        "_0914_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 13,
+            "Cones_ocurrence": 7,
+            "capacitance": 17.252057
+        },
+        "_0915_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 11,
+            "Cones_ocurrence": 6,
+            "capacitance": 15.880969999999996
+        },
+        "_0916_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 9,
+            "Cones_ocurrence": 5,
+            "capacitance": 16.694153999999997
+        },
+        "_0917_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.626352
+        },
+        "_0918_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0919_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 9,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.670716
+        },
+        "_0920_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 8,
+            "Cones_ocurrence": 4,
+            "capacitance": 5.6018170000000005
+        },
+        "_0921_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 8,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.626352
+        },
+        "_0922_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 7,
+            "Cones_ocurrence": 4,
+            "capacitance": 5.802776999999999
+        },
+        "_0923_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_0924_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0925_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 0.94642
+        },
+        "_0926_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 0.944775
+        },
+        "_0927_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 14,
+            "Cones_ocurrence": 26,
+            "capacitance": 14.915684999999998
+        },
+        "_0928_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 13,
+            "Cones_ocurrence": 16,
+            "capacitance": 15.282127
+        },
+        "_0929_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 14,
+            "capacitance": 15.752386999999999
+        },
+        "_0930_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0931_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 8,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.626352
+        },
+        "_0932_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 7,
+            "Cones_ocurrence": 4,
+            "capacitance": 6.5059819999999995
+        },
+        "_0933_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0934_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 7,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.670716
+        },
+        "_0935_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 6,
+            "Cones_ocurrence": 4,
+            "capacitance": 7.692603
+        },
+        "_0936_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 7,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.670716
+        },
+        "_0937_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 6,
+            "Cones_ocurrence": 4,
+            "capacitance": 8.131997
+        },
+        "_0938_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_0939_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_0940_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.522092
+        },
+        "_0941_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 12,
+            "Cones_ocurrence": 23,
+            "capacitance": 4.258278
+        },
+        "_0942_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 4,
+            "capacitance": 8.657645
+        },
+        "_0943_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 15,
+            "Cones_ocurrence": 6,
+            "capacitance": 17.558039
+        },
+        "_0944_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 14,
+            "Cones_ocurrence": 6,
+            "capacitance": 16.54548
+        },
+        "_0945_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 12,
+            "Cones_ocurrence": 6,
+            "capacitance": 17.58193
+        },
+        "_0946_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 7,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.626352
+        },
+        "_0947_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.411453
+        },
+        "_0948_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0949_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 26,
+            "capacitance": 4.259923000000001
+        },
+        "_0950_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 10,
+            "Cones_ocurrence": 4,
+            "capacitance": 6.055184
+        },
+        "_0951_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 25,
+            "capacitance": 3.492266
+        },
+        "_0952_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 4,
+            "capacitance": 6.777037
+        },
+        "_0953_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_0954_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0955_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 12,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.670716
+        },
+        "_0956_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 11,
+            "Cones_ocurrence": 4,
+            "capacitance": 5.502219
+        },
+        "_0957_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 12,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.670716
+        },
+        "_0958_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 11,
+            "Cones_ocurrence": 4,
+            "capacitance": 5.6260959999999995
+        },
+        "_0959_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_0960_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0961_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 11,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.626352
+        },
+        "_0962_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 10,
+            "Cones_ocurrence": 4,
+            "capacitance": 7.064052
+        },
+        "_0963_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 11,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.626352
+        },
+        "_0964_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 10,
+            "Cones_ocurrence": 4,
+            "capacitance": 7.340425000000001
+        },
+        "_0965_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0966_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 11,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.626352
+        },
+        "_0967_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 10,
+            "Cones_ocurrence": 4,
+            "capacitance": 5.559336
+        },
+        "_0968_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 10,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.670716
+        },
+        "_0969_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 9,
+            "Cones_ocurrence": 4,
+            "capacitance": 5.1073640000000005
+        },
+        "_0970_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_0971_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_0972_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.59521
+        },
+        "_0973_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 4.86708
+        },
+        "_0974_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 6.857924000000001
+        },
+        "_0975_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0976_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 31,
+            "capacitance": 4.259923000000001
+        },
+        "_0977_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 5.546257000000001
+        },
+        "_0978_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 1.670716
+        },
+        "_0979_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 5.845731000000001
+        },
+        "_0980_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_0981_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0982_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 1.626352
+        },
+        "_0983_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 5.515441
+        },
+        "_0984_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 12,
+            "Cones_ocurrence": 28,
+            "capacitance": 4.857400999999999
+        },
+        "_0985_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 6.857924000000001
+        },
+        "_0986_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0987_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 7,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.670716
+        },
+        "_0988_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0989_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 5,
+            "capacitance": 8.020395
+        },
+        "_0990_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0991_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 1.670716
+        },
+        "_0992_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 4.465508
+        },
+        "_0993_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 5.119454
+        },
+        "_0994_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_0995_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_0996_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_0997_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.63809
+        },
+        "_0998_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_0999_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 13,
+            "Cones_ocurrence": 5,
+            "capacitance": 4.866171
+        },
+        "_1000_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 13,
+            "Cones_ocurrence": 5,
+            "capacitance": 4.932427
+        },
+        "_1001_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232144
+        },
+        "_1002_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 13,
+            "Cones_ocurrence": 5,
+            "capacitance": 1.670716
+        },
+        "_1003_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 8.869205
+        },
+        "_1004_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1005_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1006_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 13,
+            "Cones_ocurrence": 5,
+            "capacitance": 1.670716
+        },
+        "_1007_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 7.866880999999999
+        },
+        "_1008_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 7.270799
+        },
+        "_1009_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1010_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1011_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 6.15241
+        },
+        "_1012_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 8.100436
+        },
+        "_1013_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1014_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 13,
+            "Cones_ocurrence": 5,
+            "capacitance": 1.626352
+        },
+        "_1015_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 7.161868
+        },
+        "_1016_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 7.558154
+        },
+        "_1017_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1018_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1019_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.626352
+        },
+        "_1020_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1021_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1022_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.659913
+        },
+        "_1023_": {
+            "LOGIC-TYPE": "NAND4",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 1,
+            "Cones_ocurrence": 2,
+            "capacitance": 0.941245
+        },
+        "_1024_": {
+            "LOGIC-TYPE": "NAND4",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 1,
+            "Cones_ocurrence": 2,
+            "capacitance": 0.941245
+        },
+        "_1025_": {
+            "LOGIC-TYPE": "NAND4",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 1,
+            "Cones_ocurrence": 2,
+            "capacitance": 0.938321
+        },
+        "_1026_": {
+            "LOGIC-TYPE": "NAND4",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 1,
+            "Cones_ocurrence": 2,
+            "capacitance": 0.923766
+        },
+        "_1027_": {
+            "LOGIC-TYPE": "NAND4",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 1,
+            "Cones_ocurrence": 2,
+            "capacitance": 0.914189
+        },
+        "_1028_": {
+            "LOGIC-TYPE": "OR4",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.938321
+        },
+        "_1029_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 8,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 11,
+            "Cones_ocurrence": 12,
+            "capacitance": 14.102147
+        },
+        "_1030_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.317252
+        },
+        "_1031_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.670716
+        },
+        "_1032_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1033_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 9,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 23,
+            "capacitance": 14.125335000000002
+        },
+        "_1034_": {
+            "LOGIC-TYPE": "BUF",
+            "FANIN": 1,
+            "FANOUT": 10,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 12,
+            "Cones_ocurrence": 14,
+            "capacitance": 16.325027000000002
+        },
+        "_1035_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 9,
+            "Cones_ocurrence": 4,
+            "capacitance": 2.608974
+        },
+        "_1036_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 8,
+            "Cones_ocurrence": 4,
+            "capacitance": 4.277244
+        },
+        "_1037_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 8,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.647003
+        },
+        "_1038_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 7,
+            "Cones_ocurrence": 4,
+            "capacitance": 5.21829
+        },
+        "_1039_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1040_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 7,
+            "Cones_ocurrence": 4,
+            "capacitance": 2.610619
+        },
+        "_1041_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 6,
+            "Cones_ocurrence": 4,
+            "capacitance": 6.619943999999999
+        },
+        "_1042_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 7,
+            "Cones_ocurrence": 4,
+            "capacitance": 7.643846
+        },
+        "_1043_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1044_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1045_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.522092
+        },
+        "_1046_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 4.863829
+        },
+        "_1047_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 6.588747
+        },
+        "_1048_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1049_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1050_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 10,
+            "Cones_ocurrence": 5,
+            "capacitance": 8.314708
+        },
+        "_1051_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1052_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 4.8388919999999995
+        },
+        "_1053_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 8.46276
+        },
+        "_1054_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1055_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1056_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 5.548298
+        },
+        "_1057_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 7.5872329999999994
+        },
+        "_1058_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1059_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 5.478156
+        },
+        "_1060_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 6.750902
+        },
+        "_1061_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1062_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1063_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1064_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.59521
+        },
+        "_1065_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 10,
+            "Cones_ocurrence": 4,
+            "capacitance": 7.24599
+        },
+        "_1066_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 11,
+            "Cones_ocurrence": 4,
+            "capacitance": 1.647003
+        },
+        "_1067_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 10,
+            "Cones_ocurrence": 4,
+            "capacitance": 7.319563
+        },
+        "_1068_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1069_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232144
+        },
+        "_1070_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 10,
+            "Cones_ocurrence": 4,
+            "capacitance": 6.444131
+        },
+        "_1071_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1072_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 4,
+            "capacitance": 6.448286999999999
+        },
+        "_1073_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 4,
+            "capacitance": 9.015754
+        },
+        "_1074_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1075_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1076_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1077_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 12,
+            "Cones_ocurrence": 4,
+            "capacitance": 2.610619
+        },
+        "_1078_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 4,
+            "capacitance": 4.193211
+        },
+        "_1079_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 4,
+            "capacitance": 5.249589
+        },
+        "_1080_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1081_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 4,
+            "capacitance": 4.287471999999999
+        },
+        "_1082_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 9,
+            "Cones_ocurrence": 4,
+            "capacitance": 2.529012
+        },
+        "_1083_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 4,
+            "capacitance": 4.56002
+        },
+        "_1084_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1085_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1086_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.63809
+        },
+        "_1087_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 6.333952999999999
+        },
+        "_1088_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 8.315463000000001
+        },
+        "_1089_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1090_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 7.2137459999999995
+        },
+        "_1091_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 7.473389
+        },
+        "_1092_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1093_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1094_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232144
+        },
+        "_1095_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.411453
+        },
+        "_1096_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1097_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 13,
+            "Cones_ocurrence": 5,
+            "capacitance": 6.5065919999999995
+        },
+        "_1098_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 1.647003
+        },
+        "_1099_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 11,
+            "Cones_ocurrence": 5,
+            "capacitance": 7.621881999999999
+        },
+        "_1100_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1101_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 13,
+            "Cones_ocurrence": 5,
+            "capacitance": 5.5088729999999995
+        },
+        "_1102_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 13,
+            "Cones_ocurrence": 5,
+            "capacitance": 1.670716
+        },
+        "_1103_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 12,
+            "Cones_ocurrence": 5,
+            "capacitance": 8.882391
+        },
+        "_1104_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1105_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1106_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1107_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.659913
+        },
+        "_1108_": {
+            "LOGIC-TYPE": "NAND4",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 1,
+            "Cones_ocurrence": 2,
+            "capacitance": 0.923766
+        },
+        "_1109_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.317252
+        },
+        "_1110_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.670716
+        },
+        "_1111_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1112_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 11,
+            "capacitance": 2.610619
+        },
+        "_1113_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 8,
+            "Cones_ocurrence": 11,
+            "capacitance": 6.671772
+        },
+        "_1114_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 6,
+            "Cones_ocurrence": 10,
+            "capacitance": 5.306025
+        },
+        "_1115_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1116_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 12,
+            "capacitance": 2.610619
+        },
+        "_1117_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 12,
+            "capacitance": 6.654576
+        },
+        "_1118_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 12,
+            "Cones_ocurrence": 13,
+            "capacitance": 6.210116
+        },
+        "_1119_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1120_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1121_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.522092
+        },
+        "_1122_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1123_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1124_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1125_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1126_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1127_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1128_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1129_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1130_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1131_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1132_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.59521
+        },
+        "_1133_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1134_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 13,
+            "Cones_ocurrence": 24,
+            "capacitance": 5.889152
+        },
+        "_1135_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1136_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 9,
+            "Cones_ocurrence": 20,
+            "capacitance": 6.722321
+        },
+        "_1137_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 11,
+            "Cones_ocurrence": 21,
+            "capacitance": 1.670716
+        },
+        "_1138_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 10,
+            "Cones_ocurrence": 21,
+            "capacitance": 8.138449999999999
+        },
+        "_1139_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1140_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 13,
+            "Cones_ocurrence": 23,
+            "capacitance": 4.8388919999999995
+        },
+        "_1141_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 11,
+            "Cones_ocurrence": 22,
+            "capacitance": 8.46276
+        },
+        "_1142_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1143_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1144_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 11,
+            "Cones_ocurrence": 17,
+            "capacitance": 2.610619
+        },
+        "_1145_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 10,
+            "Cones_ocurrence": 17,
+            "capacitance": 6.654576
+        },
+        "_1146_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 16,
+            "capacitance": 4.545917
+        },
+        "_1147_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1148_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 12,
+            "Cones_ocurrence": 18,
+            "capacitance": 2.610619
+        },
+        "_1149_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 18,
+            "capacitance": 3.550913
+        },
+        "_1150_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 11,
+            "Cones_ocurrence": 19,
+            "capacitance": 4.545917
+        },
+        "_1151_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1152_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1153_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1154_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.63809
+        },
+        "_1155_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1156_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1157_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1158_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1159_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1160_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1161_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 13,
+            "Cones_ocurrence": 29,
+            "capacitance": 8.121906
+        },
+        "_1162_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 13,
+            "Cones_ocurrence": 28,
+            "capacitance": 5.179746
+        },
+        "_1163_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.232754
+        },
+        "_1164_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 11,
+            "Cones_ocurrence": 27,
+            "capacitance": 1.626352
+        },
+        "_1165_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 10,
+            "Cones_ocurrence": 27,
+            "capacitance": 7.9704559999999995
+        },
+        "_1166_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 10,
+            "Cones_ocurrence": 26,
+            "capacitance": 3.331931
+        },
+        "_1167_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 10,
+            "Cones_ocurrence": 26,
+            "capacitance": 3.224784
+        },
+        "_1168_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 9,
+            "Cones_ocurrence": 26,
+            "capacitance": 8.445564000000001
+        },
+        "_1169_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1170_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.573608
+        },
+        "_1171_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.659913
+        },
+        "_1172_": {
+            "LOGIC-TYPE": "NAND4",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 1,
+            "Cones_ocurrence": 2,
+            "capacitance": 0.914189
+        },
+        "_1173_": {
+            "LOGIC-TYPE": "OR4",
+            "FANIN": 4,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 15,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1174_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 18,
+            "capacitance": 1.670716
+        },
+        "_1175_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 10,
+            "Cones_ocurrence": 19,
+            "capacitance": 1.626352
+        },
+        "_1176_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 21,
+            "capacitance": 5.184281
+        },
+        "_1177_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 12,
+            "Cones_ocurrence": 22,
+            "capacitance": 4.969977999999999
+        },
+        "_1178_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 12,
+            "Cones_ocurrence": 21,
+            "capacitance": 3.527119
+        },
+        "_1179_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 20,
+            "capacitance": 3.328398
+        },
+        "_1180_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 10,
+            "Cones_ocurrence": 20,
+            "capacitance": 3.3177190000000003
+        },
+        "_1181_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 10,
+            "Cones_ocurrence": 19,
+            "capacitance": 1.676853
+        },
+        "_1182_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 9,
+            "Cones_ocurrence": 19,
+            "capacitance": 7.235626999999999
+        },
+        "_1183_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 18,
+            "capacitance": 1.571893
+        },
+        "_1184_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 8,
+            "Cones_ocurrence": 18,
+            "capacitance": 7.179354999999999
+        },
+        "_1185_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 21,
+            "capacitance": 3.313503
+        },
+        "_1186_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 8,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.599032
+        },
+        "_1187_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1188_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1189_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 3.520028
+        },
+        "_1190_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 8,
+            "Cones_ocurrence": 19,
+            "capacitance": 6.06454
+        },
+        "_1191_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 10,
+            "Cones_ocurrence": 20,
+            "capacitance": 1.70023
+        },
+        "_1192_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 20,
+            "capacitance": 6.520833
+        },
+        "_1193_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 22,
+            "capacitance": 5.233337
+        },
+        "_1194_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 10,
+            "Cones_ocurrence": 21,
+            "capacitance": 8.325336
+        },
+        "_1195_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 21,
+            "capacitance": 6.128487
+        },
+        "_1196_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 9,
+            "Cones_ocurrence": 20,
+            "capacitance": 3.313395
+        },
+        "_1197_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 8,
+            "Cones_ocurrence": 19,
+            "capacitance": 4.962547
+        },
+        "_1198_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 7,
+            "Cones_ocurrence": 18,
+            "capacitance": 4.990091
+        },
+        "_1199_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1200_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232144
+        },
+        "_1201_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.411453
+        },
+        "_1202_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1203_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.944775
+        },
+        "_1204_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.94642
+        },
+        "_1205_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.944775
+        },
+        "_1206_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 7,
+            "Cones_ocurrence": 22,
+            "capacitance": 3.414846
+        },
+        "_1207_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 9,
+            "Cones_ocurrence": 24,
+            "capacitance": 0.918145
+        },
+        "_1208_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 13,
+            "Cones_ocurrence": 26,
+            "capacitance": 2.545846
+        },
+        "_1209_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 26,
+            "capacitance": 2.517177
+        },
+        "_1210_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 12,
+            "Cones_ocurrence": 26,
+            "capacitance": 5.119508000000001
+        },
+        "_1211_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 12,
+            "Cones_ocurrence": 26,
+            "capacitance": 4.276854
+        },
+        "_1212_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 25,
+            "capacitance": 3.28723
+        },
+        "_1213_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 10,
+            "Cones_ocurrence": 25,
+            "capacitance": 4.913325
+        },
+        "_1214_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 9,
+            "Cones_ocurrence": 24,
+            "capacitance": 0.97463
+        },
+        "_1215_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 8,
+            "Cones_ocurrence": 24,
+            "capacitance": 8.923295999999999
+        },
+        "_1216_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 26,
+            "capacitance": 9.341728
+        },
+        "_1217_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 9,
+            "Cones_ocurrence": 26,
+            "capacitance": 5.518178
+        },
+        "_1218_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 9,
+            "Cones_ocurrence": 25,
+            "capacitance": 8.688883
+        },
+        "_1219_": {
+            "LOGIC-TYPE": "NAND3",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 8,
+            "Cones_ocurrence": 24,
+            "capacitance": 2.738201
+        },
+        "_1220_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 27,
+            "capacitance": 3.269748
+        },
+        "_1221_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 10,
+            "Cones_ocurrence": 27,
+            "capacitance": 1.670716
+        },
+        "_1222_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 27,
+            "capacitance": 3.8948039999999997
+        },
+        "_1223_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 9,
+            "Cones_ocurrence": 27,
+            "capacitance": 3.804647
+        },
+        "_1224_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 8,
+            "Cones_ocurrence": 27,
+            "capacitance": 4.530598
+        },
+        "_1225_": {
+            "LOGIC-TYPE": "OAI22",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 9,
+            "Cones_ocurrence": 26,
+            "capacitance": 1.620338
+        },
+        "_1226_": {
+            "LOGIC-TYPE": "OAI22",
+            "FANIN": 4,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 9,
+            "Cones_ocurrence": 27,
+            "capacitance": 3.322622
+        },
+        "_1227_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 8,
+            "Cones_ocurrence": 26,
+            "capacitance": 2.558237
+        },
+        "_1228_": {
+            "LOGIC-TYPE": "NOR3",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 7,
+            "Cones_ocurrence": 23,
+            "capacitance": 4.8491230000000005
+        },
+        "_1229_": {
+            "LOGIC-TYPE": "OAI33",
+            "FANIN": 6,
+            "FANOUT": 6,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 6,
+            "Cones_ocurrence": 21,
+            "capacitance": 10.631946000000001
+        },
+        "_1230_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1231_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 14,
+            "capacitance": 3.286364
+        },
+        "_1232_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 14,
+            "capacitance": 3.277697
+        },
+        "_1233_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 9,
+            "Cones_ocurrence": 14,
+            "capacitance": 3.932984
+        },
+        "_1234_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 16,
+            "capacitance": 4.217407
+        },
+        "_1235_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 16,
+            "capacitance": 5.975339
+        },
+        "_1236_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 9,
+            "Cones_ocurrence": 16,
+            "capacitance": 7.6694249999999995
+        },
+        "_1237_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 15,
+            "capacitance": 6.264822
+        },
+        "_1238_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1239_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 7,
+            "Cones_ocurrence": 18,
+            "capacitance": 6.260505
+        },
+        "_1240_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1241_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1242_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1243_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1244_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1245_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1246_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 10,
+            "Cones_ocurrence": 17,
+            "capacitance": 8.37915
+        },
+        "_1247_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 10,
+            "Cones_ocurrence": 17,
+            "capacitance": 6.538782
+        },
+        "_1248_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 3.3177190000000003
+        },
+        "_1249_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.626352
+        },
+        "_1250_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1251_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 7,
+            "Cones_ocurrence": 14,
+            "capacitance": 1.714471
+        },
+        "_1252_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 9,
+            "Cones_ocurrence": 15,
+            "capacitance": 1.626352
+        },
+        "_1253_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 8,
+            "Cones_ocurrence": 15,
+            "capacitance": 4.887434
+        },
+        "_1254_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 7,
+            "Cones_ocurrence": 14,
+            "capacitance": 1.651345
+        },
+        "_1255_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 6,
+            "Cones_ocurrence": 14,
+            "capacitance": 7.163942
+        },
+        "_1256_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 16,
+            "capacitance": 5.881260999999999
+        },
+        "_1257_": {
+            "LOGIC-TYPE": "NAND3",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 8,
+            "Cones_ocurrence": 14,
+            "capacitance": 4.977594
+        },
+        "_1258_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1259_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.94642
+        },
+        "_1260_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.411453
+        },
+        "_1261_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.944775
+        },
+        "_1262_": {
+            "LOGIC-TYPE": "NOR3",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 5,
+            "Cones_ocurrence": 17,
+            "capacitance": 6.602182
+        },
+        "_1263_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 8,
+            "Cones_ocurrence": 17,
+            "capacitance": 1.626352
+        },
+        "_1264_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 8,
+            "Cones_ocurrence": 17,
+            "capacitance": 1.647003
+        },
+        "_1265_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 7,
+            "Cones_ocurrence": 17,
+            "capacitance": 4.893523
+        },
+        "_1266_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 4,
+            "Cones_ocurrence": 4,
+            "capacitance": 7.43906
+        },
+        "_1267_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1268_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 15,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1269_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 9,
+            "Cones_ocurrence": 10,
+            "capacitance": 3.932374
+        },
+        "_1270_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 4.643597
+        },
+        "_1271_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1272_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 4.464898
+        },
+        "_1273_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 11,
+            "capacitance": 5.1792039999999995
+        },
+        "_1274_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 10,
+            "Cones_ocurrence": 11,
+            "capacitance": 3.540895
+        },
+        "_1275_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 11,
+            "capacitance": 6.405394
+        },
+        "_1276_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1277_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1278_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 12,
+            "Cones_ocurrence": 12,
+            "capacitance": 5.889152
+        },
+        "_1279_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 10,
+            "Cones_ocurrence": 12,
+            "capacitance": 3.351575
+        },
+        "_1280_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 9,
+            "Cones_ocurrence": 11,
+            "capacitance": 8.390503
+        },
+        "_1281_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 7,
+            "Cones_ocurrence": 8,
+            "capacitance": 3.288402
+        },
+        "_1282_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 9,
+            "Cones_ocurrence": 9,
+            "capacitance": 1.714471
+        },
+        "_1283_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 10,
+            "capacitance": 1.670716
+        },
+        "_1284_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 11,
+            "Cones_ocurrence": 11,
+            "capacitance": 5.296463
+        },
+        "_1285_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 10,
+            "Cones_ocurrence": 10,
+            "capacitance": 3.2970680000000003
+        },
+        "_1286_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 9,
+            "Cones_ocurrence": 9,
+            "capacitance": 1.651345
+        },
+        "_1287_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 8,
+            "Cones_ocurrence": 9,
+            "capacitance": 8.194868
+        },
+        "_1288_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 8,
+            "Cones_ocurrence": 10,
+            "capacitance": 3.3241
+        },
+        "_1289_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 8,
+            "Cones_ocurrence": 10,
+            "capacitance": 3.804647
+        },
+        "_1290_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 7,
+            "Cones_ocurrence": 9,
+            "capacitance": 4.293653
+        },
+        "_1291_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 7,
+            "Cones_ocurrence": 8,
+            "capacitance": 3.347569
+        },
+        "_1292_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 6,
+            "Cones_ocurrence": 8,
+            "capacitance": 5.559224
+        },
+        "_1293_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 8,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.919942
+        },
+        "_1294_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.919942
+        },
+        "_1295_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1296_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 3.520028
+        },
+        "_1297_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.94642
+        },
+        "_1298_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 7,
+            "Cones_ocurrence": 8,
+            "capacitance": 1.571893
+        },
+        "_1299_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 6,
+            "Cones_ocurrence": 8,
+            "capacitance": 3.932984
+        },
+        "_1300_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.411453
+        },
+        "_1301_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1302_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.944775
+        },
+        "_1303_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.944775
+        },
+        "_1304_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 8,
+            "Cones_ocurrence": 13,
+            "capacitance": 3.947225
+        },
+        "_1305_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 7,
+            "Cones_ocurrence": 12,
+            "capacitance": 5.003335
+        },
+        "_1306_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 6,
+            "Cones_ocurrence": 12,
+            "capacitance": 1.670716
+        },
+        "_1307_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 5,
+            "Cones_ocurrence": 12,
+            "capacitance": 3.24669
+        },
+        "_1308_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 4,
+            "Cones_ocurrence": 5,
+            "capacitance": 9.115913
+        },
+        "_1309_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1310_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1311_": {
+            "LOGIC-TYPE": "NAND3",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 4,
+            "Cones_ocurrence": 6,
+            "capacitance": 3.263231
+        },
+        "_1312_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 5,
+            "Cones_ocurrence": 7,
+            "capacitance": 5.836839
+        },
+        "_1313_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 6,
+            "Cones_ocurrence": 9,
+            "capacitance": 7.807594
+        },
+        "_1314_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 6,
+            "Cones_ocurrence": 6,
+            "capacitance": 3.520028
+        },
+        "_1315_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 5,
+            "Cones_ocurrence": 6,
+            "capacitance": 4.230199
+        },
+        "_1316_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.664199
+        },
+        "_1317_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.593423
+        },
+        "_1318_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.919942
+        },
+        "_1319_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.59612
+        },
+        "_1320_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 4,
+            "Cones_ocurrence": 7,
+            "capacitance": 1.573439
+        },
+        "_1321_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 4,
+            "Cones_ocurrence": 7,
+            "capacitance": 1.651275
+        },
+        "_1322_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 5,
+            "Cones_ocurrence": 8,
+            "capacitance": 1.658423
+        },
+        "_1323_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 4,
+            "Cones_ocurrence": 8,
+            "capacitance": 3.232825
+        },
+        "_1324_": {
+            "LOGIC-TYPE": "OAI33",
+            "FANIN": 6,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 3,
+            "Cones_ocurrence": 7,
+            "capacitance": 9.133696
+        },
+        "_1325_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1326_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 15,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1327_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.918145
+        },
+        "_1328_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1329_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 9,
+            "Cones_ocurrence": 2,
+            "capacitance": 6.678045
+        },
+        "_1330_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 8,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.58401
+        },
+        "_1331_": {
+            "LOGIC-TYPE": "AOI22",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1332_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 8,
+            "Cones_ocurrence": 2,
+            "capacitance": 7.558669
+        },
+        "_1333_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1334_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1335_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.89284
+        },
+        "_1336_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 8,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.670716
+        },
+        "_1337_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232144
+        },
+        "_1338_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1339_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1340_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1341_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.88955
+        },
+        "_1342_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.919942
+        },
+        "_1343_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.94642
+        },
+        "_1344_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.944775
+        },
+        "_1345_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1346_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 4.643597
+        },
+        "_1347_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1348_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1349_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1350_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 7,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.896953
+        },
+        "_1351_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 3.313503
+        },
+        "_1352_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 8,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.372894
+        },
+        "_1353_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1354_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1355_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 3.520028
+        },
+        "_1356_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.94642
+        },
+        "_1357_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 9,
+            "Cones_ocurrence": 1,
+            "capacitance": 3.170925
+        },
+        "_1358_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 9,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.664199
+        },
+        "_1359_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 8,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.670716
+        },
+        "_1360_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1361_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1362_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.944775
+        },
+        "_1363_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.944775
+        },
+        "_1364_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1365_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 4,
+            "Cones_ocurrence": 3,
+            "capacitance": 6.520833
+        },
+        "_1366_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1367_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1368_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 15,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1369_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 5,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 5,
+            "Cones_ocurrence": 4,
+            "capacitance": 9.607443
+        },
+        "_1370_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 8,
+            "Cones_ocurrence": 1,
+            "capacitance": 3.8591059999999997
+        },
+        "_1371_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 3.8948039999999997
+        },
+        "_1372_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 8,
+            "Cones_ocurrence": 2,
+            "capacitance": 4.987826
+        },
+        "_1373_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1374_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 9,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.623273
+        },
+        "_1375_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 9,
+            "Cones_ocurrence": 1,
+            "capacitance": 3.281554
+        },
+        "_1376_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 8,
+            "Cones_ocurrence": 1,
+            "capacitance": 3.177529
+        },
+        "_1377_": {
+            "LOGIC-TYPE": "MUX2",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1378_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1379_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.664199
+        },
+        "_1380_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.657276
+        },
+        "_1381_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 8,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.620338
+        },
+        "_1382_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.626352
+        },
+        "_1383_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1384_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1385_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 4.006628
+        },
+        "_1386_": {
+            "LOGIC-TYPE": "OAI211",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.670716
+        },
+        "_1387_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.66205
+        },
+        "_1388_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1389_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 5.458138
+        },
+        "_1390_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 8,
+            "Cones_ocurrence": 2,
+            "capacitance": 5.567669
+        },
+        "_1391_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1392_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 8,
+            "Cones_ocurrence": 1,
+            "capacitance": 4.465508
+        },
+        "_1393_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 10,
+            "Cones_ocurrence": 2,
+            "capacitance": 5.015221
+        },
+        "_1394_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 9,
+            "Cones_ocurrence": 2,
+            "capacitance": 4.791877
+        },
+        "_1395_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 9,
+            "Cones_ocurrence": 1,
+            "capacitance": 3.285081
+        },
+        "_1396_": {
+            "LOGIC-TYPE": "AOI22",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 8,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1397_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1398_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 3.3112019999999998
+        },
+        "_1399_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.670716
+        },
+        "_1400_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 3.338903
+        },
+        "_1401_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.670716
+        },
+        "_1402_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 9,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.242609
+        },
+        "_1403_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 3,
+            "DEEP": 8,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.670716
+        },
+        "_1404_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 7,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1405_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 6,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1406_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 3.2232380000000003
+        },
+        "_1407_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.670716
+        },
+        "_1408_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 5,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.664199
+        },
+        "_1409_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.66205
+        },
+        "_1410_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.571893
+        },
+        "_1411_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1412_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 4,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1413_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 4,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1414_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1415_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1416_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1417_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.411453
+        },
+        "_1418_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1419_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.315544
+        },
+        "_1420_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.620338
+        },
+        "_1421_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1422_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1423_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.573608
+        },
+        "_1424_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1426_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.232754
+        },
+        "_1427_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1428_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 3,
+            "Cones_ocurrence": 1,
+            "capacitance": 1.66205
+        },
+        "_1429_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 3,
+            "Cones_ocurrence": 3,
+            "capacitance": 5.7173940000000005
+        },
+        "_1430_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.411453
+        },
+        "_1431_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1432_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 2,
+            "Cones_ocurrence": 1,
+            "capacitance": 2.411453
+        },
+        "_1433_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1434_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1436_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1437_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 3,
+            "Cones_ocurrence": 5,
+            "capacitance": 4.06183
+        },
+        "_1438_": {
+            "LOGIC-TYPE": "NAND3",
+            "FANIN": 3,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 2,
+            "Cones_ocurrence": 4,
+            "capacitance": 6.396128
+        },
+        "_1439_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 4,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 2,
+            "Cones_ocurrence": 4,
+            "capacitance": 6.656796
+        },
+        "_1440_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 0,
+            "LOGIC-LEVEL": 15,
+            "DEEP": 1,
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
+        },
+        "_1441_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 1,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.274721
+        },
+        "_1442_": {
+            "LOGIC-TYPE": "NOR3",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 2,
+            "DEEP": 2,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.168474
+        },
+        "_1443_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.590286
+        },
+        "_1444_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.620338
+        },
+        "_1445_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.2787610000000003
+        },
+        "_1446_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.621225
+        },
+        "_1447_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 7,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.626352
+        },
+        "_1448_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.3087999999999997
+        },
+        "_1449_": {
+            "LOGIC-TYPE": "NAND3",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.240676
+        },
+        "_1450_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.658423
+        },
+        "_1451_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 8,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.451275
+        },
+        "_1452_": {
+            "LOGIC-TYPE": "OAI22",
+            "FANIN": 4,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 9,
+            "Cones_ocurrence": 2,
+            "capacitance": 2.579065
+        },
+        "_1453_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 10,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.599032
+        },
+        "_1454_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 10,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.3709439999999997
+        },
+        "_1455_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 9,
+            "Cones_ocurrence": 2,
+            "capacitance": 0.941939
+        },
+        "_1456_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 8,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.325475
+        },
+        "_1457_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 9,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.671043
+        },
+        "_1458_": {
+            "LOGIC-TYPE": "OAI22",
+            "FANIN": 4,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 8,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.217594
+        },
+        "_1459_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 8,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.60595
+        },
+        "_1460_": {
+            "LOGIC-TYPE": "NOR4",
+            "FANIN": 4,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 7,
+            "Cones_ocurrence": 2,
+            "capacitance": 4.861136
+        },
+        "_1461_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.626352
+        },
+        "_1462_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 8,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.590286
+        },
+        "_1463_": {
+            "LOGIC-TYPE": "AND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 10,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.620338
+        },
+        "_1464_": {
+            "LOGIC-TYPE": "OAI22",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 10,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.658423
+        },
+        "_1465_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 3,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 9,
+            "Cones_ocurrence": 2,
+            "capacitance": 4.694561
+        },
+        "_1466_": {
+            "LOGIC-TYPE": "NAND3",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 8,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.621225
+        },
+        "_1467_": {
+            "LOGIC-TYPE": "OAI211",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 8,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.650377
+        },
+        "_1468_": {
+            "LOGIC-TYPE": "NAND3",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 7,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.670716
+        },
+        "_1469_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 6,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.647003
+        },
+        "_1470_": {
+            "LOGIC-TYPE": "AOI22",
+            "FANIN": 4,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 9,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.347569
+        },
+        "_1471_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.67753
+        },
+        "_1472_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 5,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.628297
+        },
+        "_1473_": {
+            "LOGIC-TYPE": "AOI221",
+            "FANIN": 5,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.655202
+        },
+        "_1474_": {
+            "LOGIC-TYPE": "AOI22",
+            "FANIN": 4,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 2.561055
+        },
+        "_1475_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 7,
+            "Cones_ocurrence": 3,
+            "capacitance": 0.941939
+        },
+        "_1476_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 6,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.630225
+        },
+        "_1477_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 11,
+            "Cones_ocurrence": 3,
+            "capacitance": 0.879747
+        },
+        "_1478_": {
+            "LOGIC-TYPE": "AOI22",
+            "FANIN": 4,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 11,
+            "Cones_ocurrence": 3,
+            "capacitance": 2.589575
+        },
+        "_1479_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 11,
+            "Cones_ocurrence": 3,
+            "capacitance": 0.964824
+        },
+        "_1480_": {
+            "LOGIC-TYPE": "AND3",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 2.45556
+        },
+        "_1481_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 12,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.626352
+        },
+        "_1482_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 11,
+            "Cones_ocurrence": 3,
+            "capacitance": 3.313503
+        },
+        "_1483_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.670716
+        },
+        "_1484_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.66205
+        },
+        "_1485_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 2.474165
+        },
+        "_1486_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.664199
+        },
+        "_1487_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 8,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.670716
+        },
+        "_1488_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 8,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.571893
+        },
+        "_1489_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 12,
+            "DEEP": 7,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.626352
+        },
+        "_1490_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 0.924115
+        },
+        "_1491_": {
+            "LOGIC-TYPE": "XNOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 0.944508
+        },
+        "_1492_": {
+            "LOGIC-TYPE": "AND4",
+            "FANIN": 4,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 3.169095
+        },
+        "_1493_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 8,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.670716
+        },
+        "_1494_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 11,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.599032
+        },
+        "_1495_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 11,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.664199
+        },
+        "_1496_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 3.389923
+        },
+        "_1497_": {
+            "LOGIC-TYPE": "AOI22",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.670716
+        },
+        "_1498_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 12,
+            "Cones_ocurrence": 3,
+            "capacitance": 3.341091
+        },
+        "_1499_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 11,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.67753
+        },
+        "_1500_": {
+            "LOGIC-TYPE": "AOI22",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 11,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.58162
+        },
+        "_1501_": {
+            "LOGIC-TYPE": "NAND3",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 12,
+            "Cones_ocurrence": 3,
+            "capacitance": 3.300941
+        },
+        "_1502_": {
+            "LOGIC-TYPE": "NAND3",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 12,
+            "Cones_ocurrence": 3,
+            "capacitance": 3.17747
+        },
+        "_1503_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 5,
+            "DEEP": 12,
+            "Cones_ocurrence": 3,
+            "capacitance": 3.256762
+        },
+        "_1504_": {
+            "LOGIC-TYPE": "OAI221",
+            "FANIN": 5,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 11,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.628297
+        },
+        "_1505_": {
+            "LOGIC-TYPE": "AOI221",
+            "FANIN": 5,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.66205
+        },
+        "_1506_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 11,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.670716
+        },
+        "_1507_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 3.192231
+        },
+        "_1508_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.647003
+        },
+        "_1509_": {
+            "LOGIC-TYPE": "OAI22",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.70023
+        },
+        "_1510_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.676853
+        },
+        "_1511_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 8,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.66205
+        },
+        "_1512_": {
+            "LOGIC-TYPE": "OAI22",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 8,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.571893
+        },
+        "_1513_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 7,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.676853
+        },
+        "_1514_": {
+            "LOGIC-TYPE": "AOI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 13,
+            "DEEP": 6,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.655378
+        },
+        "_1515_": {
+            "LOGIC-TYPE": "OR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 6,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.657276
+        },
+        "_1516_": {
+            "LOGIC-TYPE": "OAI211",
+            "FANIN": 4,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 2.510921
+        },
+        "_1517_": {
+            "LOGIC-TYPE": "NAND2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.670716
+        },
+        "_1518_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.66205
+        },
+        "_1519_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 2.609037
+        },
+        "_1520_": {
+            "LOGIC-TYPE": "INV",
+            "FANIN": 1,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 3.286364
+        },
+        "_1521_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 0.923766
+        },
+        "_1522_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 0.914189
+        },
+        "_1523_": {
+            "LOGIC-TYPE": "OR4",
+            "FANIN": 4,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 8,
+            "Cones_ocurrence": 3,
+            "capacitance": 3.368988
+        },
+        "_1524_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 6,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.583349
+        },
+        "_1525_": {
+            "LOGIC-TYPE": "OAI221",
+            "FANIN": 5,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 14,
+            "DEEP": 5,
+            "Cones_ocurrence": 3,
+            "capacitance": 2.584904
+        },
+        "_1526_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 8,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.714471
+        },
+        "_1527_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 9,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.670716
+        },
+        "_1528_": {
+            "LOGIC-TYPE": "OAI21",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 9,
+            "DEEP": 8,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.651345
+        },
+        "_1529_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 2,
+            "LOGIC-LEVEL": 11,
+            "DEEP": 7,
+            "Cones_ocurrence": 2,
+            "capacitance": 3.298003
+        },
+        "_1530_": {
+            "LOGIC-TYPE": "NAND4",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 15,
+            "DEEP": 4,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.679479
+        },
+        "_1531_": {
+            "LOGIC-TYPE": "AOI211",
+            "FANIN": 4,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 16,
+            "DEEP": 3,
+            "Cones_ocurrence": 2,
+            "capacitance": 1.763571
+        },
+        "_1532_": {
+            "LOGIC-TYPE": "XOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.59521
+        },
+        "_1533_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 8,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.663842
+        },
+        "_1534_": {
+            "LOGIC-TYPE": "NOR2",
+            "FANIN": 2,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 7,
+            "DEEP": 10,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.616298
+        },
+        "_1535_": {
+            "LOGIC-TYPE": "NOR3",
+            "FANIN": 3,
+            "FANOUT": 1,
+            "LOGIC-LEVEL": 10,
+            "DEEP": 9,
+            "Cones_ocurrence": 3,
+            "capacitance": 1.63809
+        }
+    }
+}
