@@ -6,7 +6,8 @@
             "FANOUT": 3,
             "LOGIC-LEVEL": 1,
             "DEEP": 13,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 4.235317
         },
         "_091_": {
             "LOGIC-TYPE": "INV",
@@ -14,7 +15,8 @@
             "FANOUT": 3,
             "LOGIC-LEVEL": 1,
             "DEEP": 13,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 4.224261
         },
         "_092_": {
             "LOGIC-TYPE": "OAI22",
@@ -22,7 +24,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 2,
             "DEEP": 12,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 1.736804
         },
         "_093_": {
             "LOGIC-TYPE": "INV",
@@ -30,7 +33,8 @@
             "FANOUT": 3,
             "LOGIC-LEVEL": 1,
             "DEEP": 13,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 4.229856
         },
         "_094_": {
             "LOGIC-TYPE": "INV",
@@ -38,7 +42,8 @@
             "FANOUT": 3,
             "LOGIC-LEVEL": 1,
             "DEEP": 13,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 4.292134
         },
         "_095_": {
             "LOGIC-TYPE": "OAI22",
@@ -46,7 +51,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 2,
             "DEEP": 12,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 1.67413
         },
         "_096_": {
             "LOGIC-TYPE": "INV",
@@ -54,7 +60,8 @@
             "FANOUT": 3,
             "LOGIC-LEVEL": 1,
             "DEEP": 13,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 4.297729
         },
         "_097_": {
             "LOGIC-TYPE": "INV",
@@ -62,7 +69,8 @@
             "FANOUT": 3,
             "LOGIC-LEVEL": 1,
             "DEEP": 13,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 4.224261
         },
         "_098_": {
             "LOGIC-TYPE": "OAI22",
@@ -70,7 +78,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 2,
             "DEEP": 12,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 1.635974
         },
         "_099_": {
             "LOGIC-TYPE": "INV",
@@ -78,7 +87,8 @@
             "FANOUT": 3,
             "LOGIC-LEVEL": 1,
             "DEEP": 13,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 4.297729
         },
         "_100_": {
             "LOGIC-TYPE": "INV",
@@ -86,7 +96,8 @@
             "FANOUT": 3,
             "LOGIC-LEVEL": 1,
             "DEEP": 13,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 4.224261
         },
         "_101_": {
             "LOGIC-TYPE": "OAI22",
@@ -94,7 +105,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 2,
             "DEEP": 12,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 1.60595
         },
         "_102_": {
             "LOGIC-TYPE": "NOR4",
@@ -102,7 +114,8 @@
             "FANOUT": 10,
             "LOGIC-LEVEL": 3,
             "DEEP": 11,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 15.666061999999998
         },
         "_103_": {
             "LOGIC-TYPE": "INV",
@@ -110,7 +123,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 1,
             "DEEP": 12,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 3.326249
         },
         "_104_": {
             "LOGIC-TYPE": "NAND2",
@@ -118,7 +132,8 @@
             "FANOUT": 9,
             "LOGIC-LEVEL": 2,
             "DEEP": 11,
-            "Cones_ocurrence": 7
+            "Cones_ocurrence": 7,
+            "capacitance": 14.389453999999997
         },
         "_105_": {
             "LOGIC-TYPE": "AND2",
@@ -126,7 +141,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 4,
             "DEEP": 2,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 1.70023
         },
         "_106_": {
             "LOGIC-TYPE": "INV",
@@ -134,7 +150,8 @@
             "FANOUT": 0,
             "LOGIC-LEVEL": 5,
             "DEEP": 1,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
         },
         "_107_": {
             "LOGIC-TYPE": "INV",
@@ -142,7 +159,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 1,
             "DEEP": 11,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 1.626352
         },
         "_108_": {
             "LOGIC-TYPE": "AOI21",
@@ -150,7 +168,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 4,
             "DEEP": 10,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 2.515378
         },
         "_109_": {
             "LOGIC-TYPE": "INV",
@@ -158,7 +177,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 1,
             "DEEP": 11,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 1.626352
         },
         "_110_": {
             "LOGIC-TYPE": "AOI21",
@@ -166,7 +186,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 4,
             "DEEP": 10,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 2.593214
         },
         "_111_": {
             "LOGIC-TYPE": "OAI33",
@@ -174,7 +195,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 5,
             "DEEP": 9,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 1.736804
         },
         "_112_": {
             "LOGIC-TYPE": "INV",
@@ -182,7 +204,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 1,
             "DEEP": 11,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 1.626352
         },
         "_113_": {
             "LOGIC-TYPE": "AOI21",
@@ -190,7 +213,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 4,
             "DEEP": 10,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 2.515378
         },
         "_114_": {
             "LOGIC-TYPE": "INV",
@@ -198,7 +222,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 1,
             "DEEP": 11,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 1.626352
         },
         "_115_": {
             "LOGIC-TYPE": "AOI21",
@@ -206,7 +231,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 4,
             "DEEP": 10,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 2.593214
         },
         "_116_": {
             "LOGIC-TYPE": "OAI33",
@@ -214,7 +240,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 5,
             "DEEP": 9,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 1.67413
         },
         "_117_": {
             "LOGIC-TYPE": "INV",
@@ -222,7 +249,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 1,
             "DEEP": 11,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 1.626352
         },
         "_118_": {
             "LOGIC-TYPE": "AOI21",
@@ -230,7 +258,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 4,
             "DEEP": 10,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 2.515378
         },
         "_119_": {
             "LOGIC-TYPE": "INV",
@@ -238,7 +267,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 1,
             "DEEP": 11,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 1.626352
         },
         "_120_": {
             "LOGIC-TYPE": "AOI21",
@@ -246,7 +276,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 4,
             "DEEP": 10,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 2.593214
         },
         "_121_": {
             "LOGIC-TYPE": "OAI33",
@@ -254,7 +285,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 5,
             "DEEP": 9,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 1.635974
         },
         "_122_": {
             "LOGIC-TYPE": "INV",
@@ -262,7 +294,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 1,
             "DEEP": 11,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 1.626352
         },
         "_123_": {
             "LOGIC-TYPE": "AOI21",
@@ -270,7 +303,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 4,
             "DEEP": 10,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 2.515378
         },
         "_124_": {
             "LOGIC-TYPE": "INV",
@@ -278,7 +312,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 1,
             "DEEP": 11,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 1.626352
         },
         "_125_": {
             "LOGIC-TYPE": "AOI21",
@@ -286,7 +321,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 4,
             "DEEP": 10,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 2.593214
         },
         "_126_": {
             "LOGIC-TYPE": "OAI33",
@@ -294,7 +330,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 5,
             "DEEP": 9,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 1.60595
         },
         "_127_": {
             "LOGIC-TYPE": "NOR4",
@@ -302,7 +339,8 @@
             "FANOUT": 5,
             "LOGIC-LEVEL": 6,
             "DEEP": 8,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 8.202091
         },
         "_128_": {
             "LOGIC-TYPE": "INV",
@@ -310,7 +348,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 1,
             "DEEP": 9,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 3.170925
         },
         "_129_": {
             "LOGIC-TYPE": "OAI21",
@@ -318,7 +357,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 4,
             "DEEP": 10,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 1.70023
         },
         "_130_": {
             "LOGIC-TYPE": "INV",
@@ -326,7 +366,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 5,
             "DEEP": 9,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 3.334915
         },
         "_131_": {
             "LOGIC-TYPE": "NAND2",
@@ -334,7 +375,8 @@
             "FANOUT": 4,
             "LOGIC-LEVEL": 6,
             "DEEP": 8,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 6.694758
         },
         "_132_": {
             "LOGIC-TYPE": "NAND2",
@@ -342,7 +384,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 7,
             "DEEP": 7,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 2.629861
         },
         "_133_": {
             "LOGIC-TYPE": "BUF",
@@ -350,7 +393,8 @@
             "FANOUT": 9,
             "LOGIC-LEVEL": 8,
             "DEEP": 1,
-            "Cones_ocurrence": 6
+            "Cones_ocurrence": 6,
+            "capacitance": 14.594291000000002
         },
         "_134_": {
             "LOGIC-TYPE": "OR2",
@@ -358,7 +402,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 5,
             "DEEP": 7,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 3.335953
         },
         "_135_": {
             "LOGIC-TYPE": "AOI211",
@@ -366,7 +411,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 9,
             "DEEP": 6,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 1.736804
         },
         "_136_": {
             "LOGIC-TYPE": "OR2",
@@ -374,7 +420,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 5,
             "DEEP": 7,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 3.335953
         },
         "_137_": {
             "LOGIC-TYPE": "AOI211",
@@ -382,7 +429,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 9,
             "DEEP": 6,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 1.67413
         },
         "_138_": {
             "LOGIC-TYPE": "OR2",
@@ -390,7 +438,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 5,
             "DEEP": 7,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 3.335953
         },
         "_139_": {
             "LOGIC-TYPE": "AOI211",
@@ -398,7 +447,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 9,
             "DEEP": 6,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 1.635974
         },
         "_140_": {
             "LOGIC-TYPE": "OAI21",
@@ -406,7 +456,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 7,
             "DEEP": 7,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 3.277697
         },
         "_141_": {
             "LOGIC-TYPE": "NOR2",
@@ -414,7 +465,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 8,
             "DEEP": 6,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 1.60595
         },
         "_142_": {
             "LOGIC-TYPE": "NOR4",
@@ -422,7 +474,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 10,
             "DEEP": 5,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 3.246035
         },
         "_143_": {
             "LOGIC-TYPE": "OR2",
@@ -430,7 +483,8 @@
             "FANOUT": 3,
             "LOGIC-LEVEL": 5,
             "DEEP": 7,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 5.047751
         },
         "_144_": {
             "LOGIC-TYPE": "INV",
@@ -438,7 +492,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 1,
             "DEEP": 8,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 1.626352
         },
         "_145_": {
             "LOGIC-TYPE": "AOI21",
@@ -446,7 +501,8 @@
             "FANOUT": 3,
             "LOGIC-LEVEL": 7,
             "DEEP": 7,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 4.938563
         },
         "_146_": {
             "LOGIC-TYPE": "NOR3",
@@ -454,7 +510,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 8,
             "DEEP": 6,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 3.451275
         },
         "_147_": {
             "LOGIC-TYPE": "OR2",
@@ -462,7 +519,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 5,
             "DEEP": 7,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 3.284775
         },
         "_148_": {
             "LOGIC-TYPE": "AOI211",
@@ -470,7 +528,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 9,
             "DEEP": 6,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 1.67413
         },
         "_149_": {
             "LOGIC-TYPE": "OR2",
@@ -478,7 +537,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 5,
             "DEEP": 7,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 3.335953
         },
         "_150_": {
             "LOGIC-TYPE": "AOI211",
@@ -486,7 +546,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 8,
             "DEEP": 6,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 1.635974
         },
         "_151_": {
             "LOGIC-TYPE": "OR2",
@@ -494,7 +555,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 5,
             "DEEP": 7,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 3.2377979999999997
         },
         "_152_": {
             "LOGIC-TYPE": "INV",
@@ -502,7 +564,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 1,
             "DEEP": 8,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 1.626352
         },
         "_153_": {
             "LOGIC-TYPE": "AOI21",
@@ -510,7 +573,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 7,
             "DEEP": 7,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 3.231862
         },
         "_154_": {
             "LOGIC-TYPE": "INV",
@@ -518,7 +582,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 1,
             "DEEP": 8,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 1.626352
         },
         "_155_": {
             "LOGIC-TYPE": "AOI21",
@@ -526,7 +591,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 7,
             "DEEP": 7,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 3.309698
         },
         "_156_": {
             "LOGIC-TYPE": "OR2",
@@ -534,7 +600,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 5,
             "DEEP": 7,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 3.2323370000000002
         },
         "_157_": {
             "LOGIC-TYPE": "OAI33",
@@ -542,7 +609,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 8,
             "DEEP": 6,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 1.60595
         },
         "_158_": {
             "LOGIC-TYPE": "NOR4",
@@ -550,7 +618,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 10,
             "DEEP": 5,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 3.341052
         },
         "_159_": {
             "LOGIC-TYPE": "NAND2",
@@ -558,7 +627,8 @@
             "FANOUT": 9,
             "LOGIC-LEVEL": 11,
             "DEEP": 1,
-            "Cones_ocurrence": 5
+            "Cones_ocurrence": 5,
+            "capacitance": 14.757911
         },
         "_160_": {
             "LOGIC-TYPE": "AOI221",
@@ -566,7 +636,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 12,
             "DEEP": 2,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 1.626352
         },
         "_161_": {
             "LOGIC-TYPE": "AOI221",
@@ -574,7 +645,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 12,
             "DEEP": 3,
-            "Cones_ocurrence": 2
+            "Cones_ocurrence": 2,
+            "capacitance": 3.383807
         },
         "_162_": {
             "LOGIC-TYPE": "AOI21",
@@ -582,7 +654,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 12,
             "DEEP": 3,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 1.67413
         },
         "_163_": {
             "LOGIC-TYPE": "AOI21",
@@ -590,7 +663,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 9,
             "DEEP": 5,
-            "Cones_ocurrence": 3
+            "Cones_ocurrence": 3,
+            "capacitance": 1.70023
         },
         "_164_": {
             "LOGIC-TYPE": "INV",
@@ -598,7 +672,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 10,
             "DEEP": 4,
-            "Cones_ocurrence": 3
+            "Cones_ocurrence": 3,
+            "capacitance": 2.6612850000000003
         },
         "_165_": {
             "LOGIC-TYPE": "INV",
@@ -606,7 +681,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 1,
             "DEEP": 5,
-            "Cones_ocurrence": 3
+            "Cones_ocurrence": 3,
+            "capacitance": 1.626352
         },
         "_166_": {
             "LOGIC-TYPE": "AOI21",
@@ -614,7 +690,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 11,
             "DEEP": 4,
-            "Cones_ocurrence": 3
+            "Cones_ocurrence": 3,
+            "capacitance": 2.593284
         },
         "_167_": {
             "LOGIC-TYPE": "NOR2",
@@ -622,7 +699,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 12,
             "DEEP": 3,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 1.635974
         },
         "_168_": {
             "LOGIC-TYPE": "AOI211",
@@ -630,7 +708,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 12,
             "DEEP": 3,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 1.60595
         },
         "_169_": {
             "LOGIC-TYPE": "NOR4",
@@ -638,7 +717,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 13,
             "DEEP": 2,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 1.647003
         },
         "_170_": {
             "LOGIC-TYPE": "AOI211",
@@ -646,7 +726,8 @@
             "FANOUT": 4,
             "LOGIC-LEVEL": 12,
             "DEEP": 3,
-            "Cones_ocurrence": 4
+            "Cones_ocurrence": 4,
+            "capacitance": 5.269022
         },
         "_171_": {
             "LOGIC-TYPE": "AOI221",
@@ -654,7 +735,8 @@
             "FANOUT": 3,
             "LOGIC-LEVEL": 12,
             "DEEP": 3,
-            "Cones_ocurrence": 4
+            "Cones_ocurrence": 4,
+            "capacitance": 3.556161
         },
         "_172_": {
             "LOGIC-TYPE": "AOI221",
@@ -662,7 +744,8 @@
             "FANOUT": 3,
             "LOGIC-LEVEL": 12,
             "DEEP": 3,
-            "Cones_ocurrence": 4
+            "Cones_ocurrence": 4,
+            "capacitance": 5.050675
         },
         "_173_": {
             "LOGIC-TYPE": "AOI211",
@@ -670,7 +753,8 @@
             "FANOUT": 4,
             "LOGIC-LEVEL": 12,
             "DEEP": 3,
-            "Cones_ocurrence": 4
+            "Cones_ocurrence": 4,
+            "capacitance": 5.762205
         },
         "_174_": {
             "LOGIC-TYPE": "NOR4",
@@ -678,7 +762,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 13,
             "DEEP": 2,
-            "Cones_ocurrence": 2
+            "Cones_ocurrence": 2,
+            "capacitance": 3.377083
         },
         "_175_": {
             "LOGIC-TYPE": "AOI21",
@@ -686,7 +771,8 @@
             "FANOUT": 0,
             "LOGIC-LEVEL": 14,
             "DEEP": 1,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
         },
         "_176_": {
             "LOGIC-TYPE": "INV",
@@ -694,7 +780,8 @@
             "FANOUT": 0,
             "LOGIC-LEVEL": 14,
             "DEEP": 1,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
         },
         "_177_": {
             "LOGIC-TYPE": "NOR2",
@@ -702,7 +789,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 13,
             "DEEP": 2,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 1.630225
         },
         "_178_": {
             "LOGIC-TYPE": "OR3",
@@ -710,7 +798,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 13,
             "DEEP": 2,
-            "Cones_ocurrence": 2
+            "Cones_ocurrence": 2,
+            "capacitance": 3.310756
         },
         "_179_": {
             "LOGIC-TYPE": "NOR3",
@@ -718,7 +807,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 12,
             "DEEP": 3,
-            "Cones_ocurrence": 2
+            "Cones_ocurrence": 2,
+            "capacitance": 1.651345
         },
         "_180_": {
             "LOGIC-TYPE": "NOR2",
@@ -726,7 +816,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 13,
             "DEEP": 2,
-            "Cones_ocurrence": 2
+            "Cones_ocurrence": 2,
+            "capacitance": 3.210834
         },
         "_181_": {
             "LOGIC-TYPE": "OR2",
@@ -734,7 +825,8 @@
             "FANOUT": 2,
             "LOGIC-LEVEL": 12,
             "DEEP": 3,
-            "Cones_ocurrence": 2
+            "Cones_ocurrence": 2,
+            "capacitance": 3.2465289999999998
         },
         "_182_": {
             "LOGIC-TYPE": "OR2",
@@ -742,7 +834,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 13,
             "DEEP": 2,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 1.583349
         },
         "_183_": {
             "LOGIC-TYPE": "OAI221",
@@ -750,7 +843,8 @@
             "FANOUT": 0,
             "LOGIC-LEVEL": 14,
             "DEEP": 1,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
         },
         "_184_": {
             "LOGIC-TYPE": "INV",
@@ -758,7 +852,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 13,
             "DEEP": 2,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 1.630225
         },
         "_185_": {
             "LOGIC-TYPE": "AOI21",
@@ -766,7 +861,8 @@
             "FANOUT": 1,
             "LOGIC-LEVEL": 13,
             "DEEP": 2,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 1.569676
         },
         "_186_": {
             "LOGIC-TYPE": "OAI221",
@@ -774,7 +870,8 @@
             "FANOUT": 0,
             "LOGIC-LEVEL": 14,
             "DEEP": 1,
-            "Cones_ocurrence": 1
+            "Cones_ocurrence": 1,
+            "capacitance": 0.0
         }
     }
 }

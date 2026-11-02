@@ -41,3 +41,5 @@ class Save_features(Netlist_and_topology):
     def ad_cone(self, key: int, cones: int) -> None:
         self.nets_and_topology[key]["Cones_ocurrence"] = cones
     
+    def ad_capacitance(self, cell_id, value):
+        self.nets_and_topology[cell_id]["capacitance"] = value

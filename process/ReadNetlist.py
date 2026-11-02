@@ -1,3 +1,4 @@
+import json
 import najaeda
 import re
 import sys
@@ -160,22 +161,30 @@ class Circuit_features:
             if key is not None:
                 self.features_dict.ad_fanout(key, len(destinations))
 
+    def capacitance(self):
+        for inst_name in self.inst_inputs:
+            key = self.extract_key(inst_name)
+            if key is not None:
+                cap = self.read_netlist.fanout_capacitance(inst_name)
+                self.features_dict.ad_capacitance(key, cap)
+
     def collect_features(self):
         self.compute_logic_levels()
         self.comput_deep()
         self.fan_in()
         self.fan_out()
+        self.capacitance()
 
 
 # percorre o verilog com o najaeda retornando as features e cones logicos
 class Read_netlist:
-    def __init__(self, verilog: str, library: str):
+    def __init__(self, verilog: str, library: str, json_capacitance: str):
         self.verilog = verilog
         self.library = library
 
         netlist.reset()
         netlist.load_liberty([self.library])
-        self.top_najaeda = netlist.load_verilog([self.verilog])
+        self.top_najaeda = netlist.load_gate_level_verilog([self.verilog])
     
         self.universe = naja.NLUniverse.get()
         self.top = self.universe.getTopDesign()    
@@ -186,6 +195,7 @@ class Read_netlist:
         self.inst_model = {}
         self.net_drivers = {}
         self.net_users = {}
+        self.net_pin_users = {}
  
         for inst in self.top.getInstances():
             name = inst.getName()
@@ -202,6 +212,8 @@ class Read_netlist:
                 if direction == naja.SNLTerm.Direction.Input:
                     in_nets.add(net)
                     self.net_users.setdefault(net, set()).add(name)
+                    pin_name = term.getBitTerm().getName()
+                    self.net_pin_users.setdefault(net, []).append((name, pin_name))
                 elif direction == naja.SNLTerm.Direction.Output:
                     out_nets.add(net)
                     self.net_drivers.setdefault(net, set()).add(name)
@@ -221,6 +233,8 @@ class Read_netlist:
             elif term.getDirection() == naja.SNLTerm.Direction.Output:
                 self.po_nets.add(net)
 
+        with open(json_capacitance, 'r', encoding='utf-8') as file:
+            self.capacitance = json.load(file) 
 
         # conjunto de instâncias do cone de uma net de saída (só usa dicts/sets Python)
     def cone_cells(self, out_net) -> set:
@@ -309,6 +323,40 @@ class Read_netlist:
                     stack.append((prev_net, path + [drv]))
 
         return cone_paths
+
+    def number_imputs(self, inst_name: str) -> int:
+        if inst_name not in self.inst_n_inputs:
+            raise ValueError(f"INSTANCE {inst_name} NOT FOUND")
+        return self.inst_n_inputs[inst_name]
+    
+    def get_pin_capacitance(self, cell_name: str, pin_name: str) -> float:
+        model = self.inst_model[cell_name]
+        cell_caps = self.capacitance.get(model, {})
+        if isinstance(cell_caps, dict):
+            return cell_caps.get(pin_name, 0.0)
+        return float(cell_caps)
+
+    def get_capacitance(self, cell_name: str, pin_name: str = None) -> float:
+        if pin_name is not None:
+            return self.get_pin_capacitance(cell_name, pin_name)
+        model = self.inst_model[cell_name]
+        cell_caps = self.capacitance.get(model, {})
+        if isinstance(cell_caps, dict):
+            return sum(cell_caps.values())
+        return float(cell_caps)
+
+    def fanout_capacitance(self, inst_name: str) -> float:
+        # valida que a instância existe (levanta ValueError se não existir)
+        self.number_imputs(inst_name)
+
+        # soma a capacitância de cada pino de entrada conectado às nets de saída da instância
+        total_cap = 0.0
+        for net in self.inst_outputs[inst_name]:
+            for user, pin_name in self.net_pin_users.get(net, []):
+                if user != inst_name:
+                    total_cap += self.get_pin_capacitance(user, pin_name)
+
+        return total_cap
 
     def get_features(self, features_dict) -> dict:
         circuit = Circuit_features(self, features_dict)

@@ -112,7 +112,7 @@ except Exception as error:
     sys.exit(1)
 
 try: 
-    netlist = ReadNetlist.Read_netlist(f"{VERILOGS}/{DESIGN}.v", f"{LIBRARY_PATH}/{LIBRARY}")
+    netlist = ReadNetlist.Read_netlist(f"{VERILOGS}/{DESIGN}.v", f"{LIBRARY_PATH}/{LIBRARY}", f"{LIBRARY_PATH}/capacitance.json")
     netlist.get_features(features_dict)
 
     cones_count = netlist.cones_ocurrence(design_outputs, NUMBER_THREADS)
