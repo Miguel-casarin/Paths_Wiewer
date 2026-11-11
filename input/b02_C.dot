@@ -1,0 +1,64 @@
+digraph "b02_C" {
+label="b02_C";
+rankdir="LR";
+remincross=true;
+
+p0 [ shape=octagon, label="LINEA", color="black", fontcolor="black"];
+p1 [ shape=octagon, label="STATO_REG_2__SCAN_IN", color="black", fontcolor="black"];
+p2 [ shape=octagon, label="STATO_REG_1__SCAN_IN", color="black", fontcolor="black"];
+p3 [ shape=octagon, label="STATO_REG_0__SCAN_IN", color="black", fontcolor="black"];
+p4 [ shape=octagon, label="U33", color="black", fontcolor="black"];
+p5 [ shape=octagon, label="U38", color="black", fontcolor="black"];
+p6 [ shape=octagon, label="U32", color="black", fontcolor="black"];
+p7 [ shape=octagon, label="U31", color="black", fontcolor="black"];
+
+c0 [ shape=record, label="{{<A> STATO_REG_2__SCAN_IN}|_09_\nINV_X1|{<ZN> ZN}}" ];
+c1 [ shape=record, label="{{<A1> _08_|<A2> STATO_REG_0__SCAN_IN|<A3> STATO_REG_1__SCAN_IN}|_10_\nNOR3_X1|{<ZN> ZN}}" ];
+c2 [ shape=record, label="{{<A> LINEA}|_11_\nINV_X1|{<ZN> ZN}}" ];
+c3 [ shape=record, label="{{<A> STATO_REG_0__SCAN_IN|<B1> _00_|<B2> STATO_REG_2__SCAN_IN}|_12_\nOAI21_X1|{<ZN> ZN}}" ];
+c4 [ shape=record, label="{{<A> STATO_REG_1__SCAN_IN|<B1> LINEA|<B2> STATO_REG_2__SCAN_IN}|_13_\nOAI21_X1|{<ZN> ZN}}" ];
+c5 [ shape=record, label="{{<A1> _01_|<A2> _02_}|_14_\nAND2_X1|{<ZN> ZN}}" ];
+c6 [ shape=record, label="{{<A> STATO_REG_0__SCAN_IN}|_15_\nINV_X1|{<ZN> ZN}}" ];
+c7 [ shape=record, label="{{<A1> STATO_REG_2__SCAN_IN|<A2> STATO_REG_1__SCAN_IN|<A3> LINEA}|_16_\nNOR3_X1|{<ZN> ZN}}" ];
+c8 [ shape=record, label="{{<A1> _08_|<A2> _00_}|_17_\nNOR2_X1|{<ZN> ZN}}" ];
+c9 [ shape=record, label="{{<A1> _03_|<A2> _04_|<B1> _05_|<B2> _02_}|_18_\nOAI22_X1|{<ZN> ZN}}" ];
+c10 [ shape=record, label="{{<A1> _08_|<A2> _03_|<A3> STATO_REG_1__SCAN_IN}|_19_\nNAND3_X1|{<ZN> ZN}}" ];
+c11 [ shape=record, label="{{<A1> _08_|<A2> STATO_REG_1__SCAN_IN}|_20_\nAND2_X1|{<ZN> ZN}}" ];
+c12 [ shape=record, label="{{<A> _06_|<B1> _07_|<B2> _01_}|_21_\nOAI21_X1|{<ZN> ZN}}" ];
+
+p0:e -> c2:A:w [color="black", fontcolor="black", label=""];
+p0:e -> c4:B1:w [color="black", fontcolor="black", label=""];
+p0:e -> c7:A3:w [color="black", fontcolor="black", label=""];
+p3:e -> c1:A2:w [color="black", fontcolor="black", label=""];
+p3:e -> c3:A:w [color="black", fontcolor="black", label=""];
+p3:e -> c6:A:w [color="black", fontcolor="black", label=""];
+p2:e -> c1:A3:w [color="black", fontcolor="black", label=""];
+p2:e -> c4:A:w [color="black", fontcolor="black", label=""];
+p2:e -> c7:A2:w [color="black", fontcolor="black", label=""];
+p2:e -> c10:A3:w [color="black", fontcolor="black", label=""];
+p2:e -> c11:A2:w [color="black", fontcolor="black", label=""];
+p1:e -> c0:A:w [color="black", fontcolor="black", label=""];
+p1:e -> c3:B2:w [color="black", fontcolor="black", label=""];
+p1:e -> c4:B2:w [color="black", fontcolor="black", label=""];
+p1:e -> c7:A1:w [color="black", fontcolor="black", label=""];
+c1:ZN:e -> p7:w [color="black", fontcolor="black", label=""];
+c5:ZN:e -> p6:w [color="black", fontcolor="black", label=""];
+c9:ZN:e -> p4:w [color="black", fontcolor="black", label=""];
+c12:ZN:e -> p5:w [color="black", fontcolor="black", label=""];
+c2:ZN:e -> c3:B1:w [color="black", fontcolor="black", label=""];
+c2:ZN:e -> c8:A2:w [color="black", fontcolor="black", label=""];
+c3:ZN:e -> c5:A1:w [color="black", fontcolor="black", label=""];
+c3:ZN:e -> c12:B2:w [color="black", fontcolor="black", label=""];
+c4:ZN:e -> c5:A2:w [color="black", fontcolor="black", label=""];
+c4:ZN:e -> c9:B2:w [color="black", fontcolor="black", label=""];
+c6:ZN:e -> c9:A1:w [color="black", fontcolor="black", label=""];
+c6:ZN:e -> c10:A2:w [color="black", fontcolor="black", label=""];
+c7:ZN:e -> c9:A2:w [color="black", fontcolor="black", label=""];
+c8:ZN:e -> c9:B1:w [color="black", fontcolor="black", label=""];
+c10:ZN:e -> c12:A:w [color="black", fontcolor="black", label=""];
+c11:ZN:e -> c12:B1:w [color="black", fontcolor="black", label=""];
+c0:ZN:e -> c1:A1:w [color="black", fontcolor="black", label=""];
+c0:ZN:e -> c8:A1:w [color="black", fontcolor="black", label=""];
+c0:ZN:e -> c10:A1:w [color="black", fontcolor="black", label=""];
+c0:ZN:e -> c11:A1:w [color="black", fontcolor="black", label=""];
+}

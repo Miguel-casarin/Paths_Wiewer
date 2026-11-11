@@ -1,0 +1,210 @@
+STEP 0
+CELL: 0
+ARRIVAL1:
+LINEA^ -> _11_v -> _12_^ -> _14_^ -> U32^
+
+ARRIVAL2:
+LINEAv -> _16_^ -> _18_v -> U33v
+
+ARRIVAL3:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL4:
+STATO_REG_1__SCAN_INv -> _10_^ -> U31^
+
+
+STEP 7
+CELL: _14_
+ARRIVAL1:
+LINEA^ -> _11_v -> _12_^ -> _14_^ -> U32^
+
+ARRIVAL2:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL3:
+LINEAv -> _16_^ -> _18_v -> U33v
+
+ARRIVAL4:
+STATO_REG_2__SCAN_IN^ -> _09_v -> _10_^ -> U31^
+
+
+STEP 8
+CELL: _16_
+ARRIVAL1:
+LINEA^ -> _11_v -> _12_^ -> _14_^ -> U32^
+
+ARRIVAL2:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL3:
+STATO_REG_2__SCAN_INv -> _09_^ -> _17_v -> _18_^ -> U33^
+
+ARRIVAL4:
+STATO_REG_2__SCAN_IN^ -> _09_v -> _10_^ -> U31^
+
+
+STEP 9
+CELL: _15_
+ARRIVAL1:
+LINEA^ -> _11_v -> _12_^ -> _14_^ -> U32^
+
+ARRIVAL2:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL3:
+STATO_REG_2__SCAN_INv -> _09_^ -> _17_v -> _18_^ -> U33^
+
+ARRIVAL4:
+STATO_REG_2__SCAN_IN^ -> _09_v -> _10_^ -> U31^
+
+
+STEP 10
+CELL: _11_
+ARRIVAL1:
+LINEA^ -> _11_v -> _12_^ -> _14_^ -> U32^
+
+ARRIVAL2:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL3:
+STATO_REG_2__SCAN_INv -> _09_^ -> _17_v -> _18_^ -> U33^
+
+ARRIVAL4:
+STATO_REG_2__SCAN_IN^ -> _09_v -> _10_^ -> U31^
+
+
+STEP 11
+CELL: _12_
+ARRIVAL1:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL2:
+STATO_REG_2__SCAN_INv -> _09_^ -> _17_v -> _18_^ -> U33^
+
+ARRIVAL3:
+LINEA^ -> _11_v -> _12_^ -> _14_^ -> U32^
+
+ARRIVAL4:
+STATO_REG_2__SCAN_IN^ -> _09_v -> _10_^ -> U31^
+
+
+STEP 12
+CELL: _20_
+ARRIVAL1:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL2:
+STATO_REG_2__SCAN_INv -> _09_^ -> _17_v -> _18_^ -> U33^
+
+ARRIVAL3:
+LINEA^ -> _11_v -> _12_^ -> _14_^ -> U32^
+
+ARRIVAL4:
+STATO_REG_2__SCAN_IN^ -> _09_v -> _10_^ -> U31^
+
+
+STEP 13
+CELL: _09_
+ARRIVAL1:
+LINEA^ -> _11_v -> _12_^ -> _14_^ -> U32^
+
+ARRIVAL2:
+LINEAv -> _16_^ -> _18_v -> U33v
+
+ARRIVAL3:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL4:
+STATO_REG_1__SCAN_INv -> _10_^ -> U31^
+
+
+STEP 4
+CELL: _19_
+ARRIVAL1:
+LINEA^ -> _11_v -> _12_^ -> _14_^ -> U32^
+
+ARRIVAL2:
+LINEAv -> _16_^ -> _18_v -> U33v
+
+ARRIVAL3:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL4:
+STATO_REG_2__SCAN_IN^ -> _09_v -> _10_^ -> U31^
+
+
+STEP 3
+CELL: _17_
+ARRIVAL1:
+LINEA^ -> _11_v -> _12_^ -> _14_^ -> U32^
+
+ARRIVAL2:
+LINEAv -> _16_^ -> _18_v -> U33v
+
+ARRIVAL3:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL4:
+STATO_REG_2__SCAN_IN^ -> _09_v -> _10_^ -> U31^
+
+
+STEP 1
+CELL: _18_
+ARRIVAL1:
+LINEAv -> _16_^ -> _18_v -> U33v
+
+ARRIVAL2:
+STATO_REG_2__SCAN_INv -> _13_^ -> _14_^ -> U32^
+
+ARRIVAL3:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL4:
+STATO_REG_1__SCAN_INv -> _10_^ -> U31^
+
+
+STEP 5
+CELL: _13_
+ARRIVAL1:
+LINEA^ -> _11_v -> _12_^ -> _14_^ -> U32^
+
+ARRIVAL2:
+LINEAv -> _16_^ -> _18_v -> U33v
+
+ARRIVAL3:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL4:
+STATO_REG_2__SCAN_IN^ -> _09_v -> _10_^ -> U31^
+
+
+STEP 6
+CELL: _10_
+ARRIVAL1:
+LINEA^ -> _11_v -> _12_^ -> _14_^ -> U32^
+
+ARRIVAL2:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL3:
+LINEAv -> _16_^ -> _18_v -> U33v
+
+ARRIVAL4:
+STATO_REG_2__SCAN_IN^ -> _09_v -> _10_^ -> U31^
+
+
+STEP 2
+CELL: _21_
+ARRIVAL1:
+LINEAv -> _16_^ -> _18_v -> U33v
+
+ARRIVAL2:
+LINEA^ -> _11_v -> _12_^ -> _14_^ -> U32^
+
+ARRIVAL3:
+STATO_REG_2__SCAN_INv -> _09_^ -> _20_^ -> _21_v -> U38v
+
+ARRIVAL4:
+STATO_REG_1__SCAN_INv -> _10_^ -> U31^
+
+

@@ -1,0 +1,26 @@
+LINEA -> _13_ -> _18_ -> U33
+LINEA -> _11_ -> _17_ -> _18_ -> U33
+LINEA -> _16_ -> _18_ -> U33
+STATO_REG_2__SCAN_IN -> _13_ -> _18_ -> U33
+STATO_REG_2__SCAN_IN -> _09_ -> _17_ -> _18_ -> U33
+STATO_REG_2__SCAN_IN -> _16_ -> _18_ -> U33
+STATO_REG_1__SCAN_IN -> _13_ -> _18_ -> U33
+STATO_REG_1__SCAN_IN -> _16_ -> _18_ -> U33
+STATO_REG_0__SCAN_IN -> _15_ -> _18_ -> U33
+LINEA -> _11_ -> _12_ -> _21_ -> U38
+STATO_REG_2__SCAN_IN -> _09_ -> _20_ -> _21_ -> U38
+STATO_REG_2__SCAN_IN -> _09_ -> _19_ -> _21_ -> U38
+STATO_REG_2__SCAN_IN -> _12_ -> _21_ -> U38
+STATO_REG_1__SCAN_IN -> _20_ -> _21_ -> U38
+STATO_REG_1__SCAN_IN -> _19_ -> _21_ -> U38
+STATO_REG_0__SCAN_IN -> _15_ -> _19_ -> _21_ -> U38
+STATO_REG_0__SCAN_IN -> _12_ -> _21_ -> U38
+LINEA -> _13_ -> _14_ -> U32
+LINEA -> _11_ -> _12_ -> _14_ -> U32
+STATO_REG_2__SCAN_IN -> _13_ -> _14_ -> U32
+STATO_REG_2__SCAN_IN -> _12_ -> _14_ -> U32
+STATO_REG_1__SCAN_IN -> _13_ -> _14_ -> U32
+STATO_REG_0__SCAN_IN -> _12_ -> _14_ -> U32
+STATO_REG_2__SCAN_IN -> _09_ -> _10_ -> U31
+STATO_REG_1__SCAN_IN -> _10_ -> U31
+STATO_REG_0__SCAN_IN -> _10_ -> U31
