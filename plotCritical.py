@@ -4,7 +4,7 @@ import pprint
 from process import readVerilog, ReadNetlist, editTCL, readSTA
 from make_dots import circuitDot, arrivals
 from run import runSTA
-from utils import files
+from utils import files, colorsMake
 
 while True:
     circuit = input("DESIGN TO RUN : ").strip()
@@ -63,4 +63,14 @@ except Exception as error:
 
 # constrou o .dot básico
 circuitDot.verilog_to_dot(f"{VERILOGS}/{DESIGN}.v", TEMP_PATH)
-arrivals.paint_path(f"{TEMP_PATH}/{DESIGN}.dot", dict_times, 1, [255, 165, 0])
+
+def color_plot(dot_file: str, dict_values: dict, path_id: int):
+    if path_id == 1:
+        arrivals.paint_path(dot_file, dict_values, path_id, [255, 165, 0])
+    else:
+        color = colorsMake.color()
+        arrivals.paint_path(dot_file, dict_values, path_id, color)
+        
+
+color_plot(f"{TEMP_PATH}/{DESIGN}.dot", dict_times, 7)
+    

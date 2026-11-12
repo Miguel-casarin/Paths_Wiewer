@@ -2,7 +2,14 @@ import re
 
 
 def paint_path(dot_file, paths, key, rgb):
-  
+    """Edita o .dot existente (no proprio arquivo): pinta os gates de um caminho
+    do STA e escreve o Time dentro deles.
+
+    dot_file : caminho do .dot gerado pelo verilog_to_dot
+    paths    : dicionario do Read_paths.get_paths() -> {1: {"_100_": 0.01728, ...}, ...}
+    key      : chave do caminho (arrival) a pintar, ex.: 1
+    rgb      : cor como lista [R, G, B] (0-255), ex.: [255, 165, 0] = laranja
+    """
     if key not in paths:
         raise KeyError(f"Caminho {key} nao existe. Chaves disponiveis: {list(paths)}")
     if len(rgb) != 3 or not all(0 <= int(c) <= 255 for c in rgb):
