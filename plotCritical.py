@@ -2,6 +2,7 @@ import sys
 import pprint
 
 from process import readVerilog, ReadNetlist, editTCL, readSTA
+from make_dots import circuitDot, arrivals
 from run import runSTA
 from utils import files
 
@@ -60,3 +61,6 @@ except Exception as error:
     sys.exit(1)
     
 
+# constrou o .dot básico
+circuitDot.verilog_to_dot(f"{VERILOGS}/{DESIGN}.v", TEMP_PATH)
+arrivals.paint_path(f"{TEMP_PATH}/{DESIGN}.dot", dict_times, 1, [255, 165, 0])
