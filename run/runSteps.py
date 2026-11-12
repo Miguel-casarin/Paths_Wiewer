@@ -13,15 +13,15 @@ except ImportError:
 
 class Make_TCL_Steps:
     def __init__(self,
-                 tcl_template: str,      # ./tcl/sizeParallel.tcl
-                 verilog_path: str,
-                 lib_path: str,
-                 module: str,
-                 inputs_list: list,
-                 outputs_list: list,
-                 cells_to_upsize: list,
-                 design: str,
-                 temp_path: str = "./temp"):
+        tcl_template: str,      # ./tcl/sizeParallel.tcl
+        verilog_path: str,
+        lib_path: str,
+        module: str,
+        inputs_list: list,
+        outputs_list: list,
+        cells_to_upsize: list,
+        design: str,
+        temp_path: str = "./temp"):
         self.template = tcl_template
         self.verilog = verilog_path
         self.lib = lib_path

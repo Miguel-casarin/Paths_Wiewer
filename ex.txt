@@ -1,0 +1,280 @@
+OpenSTA 3.1.0 cc365d0914 Copyright (c) 2026, Parallax Software, Inc.
+License GPLv3: GNU GPL version 3 <http://gnu.org/licenses/gpl.html>
+
+This is free software, and you are free to change and redistribute it
+under certain conditions; type `show_copying' for details. 
+This program comes with ABSOLUTELY NO WARRANTY; for details type `show_warranty'.
+Group                  Internal  Switching    Leakage      Total
+                          Power      Power      Power      Power (Watts)
+----------------------------------------------------------------
+Sequential             0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Combinational          2.13e-05   2.13e-05   2.57e-06   4.52e-05 100.0%
+Clock                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Macro                  0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+Pad                    0.00e+00   0.00e+00   0.00e+00   0.00e+00   0.0%
+----------------------------------------------------------------
+Total                  2.13e-05   2.13e-05   2.57e-06   4.52e-05 100.0%
+                          47.1%      47.2%       5.7%
+Warning 503: path_c432.tcl line 1, report_checks -group_count is deprecated. Use -group_path_count instead.
+Startpoint: N30 (input port clocked by virt_clk)
+Endpoint: N431 (output port clocked by virt_clk)
+Path Group: virt_clk
+Path Type: max
+
+     Delay       Time   Description
+---------------------------------------------------------------
+   0.00000    0.00000   clock virt_clk (rise edge)
+   0.00000    0.00000   clock network delay (ideal)
+   0.00000    0.00000 v input external delay
+   0.00083    0.00083 v N30 (in)
+   0.01645    0.01728 ^ _100_/ZN (INV_X1)
+   0.01923    0.03651 v _101_/ZN (OAI22_X1)
+   0.22903    0.26554 ^ _102_/ZN (NOR4_X1)
+   0.02044    0.28597 v _125_/ZN (AOI21_X1)
+   0.07680    0.36278 ^ _126_/ZN (OAI33_X1)
+   0.03304    0.39582 v _127_/ZN (NOR4_X1)
+   0.02287    0.41869 ^ _132_/ZN (NAND2_X1)
+   0.05755    0.47624 ^ _133_/Z (BUF_X1)
+   0.02042    0.49666 v _139_/ZN (AOI211_X1)
+   0.09275    0.58940 ^ _142_/ZN (NOR4_X1)
+   0.05623    0.64563 v _159_/ZN (NAND2_X1)
+   0.07949    0.72512 ^ _173_/ZN (AOI211_X1)
+   0.04497    0.77009 ^ _178_/ZN (OR3_X1)
+   0.02697    0.79706 v _183_/ZN (OAI221_X1)
+   0.00000    0.79706 v N431 (out)
+              0.79706   data arrival time
+
+   1.10000    1.10000   clock virt_clk (rise edge)
+   0.00000    1.10000   clock network delay (ideal)
+   0.00000    1.10000   clock reconvergence pessimism
+  -1.00000    0.10000   output external delay
+              0.10000   data required time
+---------------------------------------------------------------
+              0.10000   data required time
+             -0.79706   data arrival time
+---------------------------------------------------------------
+             -0.69706   slack (VIOLATED)
+
+
+Startpoint: N30 (input port clocked by virt_clk)
+Endpoint: N432 (output port clocked by virt_clk)
+Path Group: virt_clk
+Path Type: max
+
+     Delay       Time   Description
+---------------------------------------------------------------
+   0.00000    0.00000   clock virt_clk (rise edge)
+   0.00000    0.00000   clock network delay (ideal)
+   0.00000    0.00000 v input external delay
+   0.00083    0.00083 v N30 (in)
+   0.01645    0.01728 ^ _100_/ZN (INV_X1)
+   0.01923    0.03651 v _101_/ZN (OAI22_X1)
+   0.22903    0.26554 ^ _102_/ZN (NOR4_X1)
+   0.02044    0.28597 v _125_/ZN (AOI21_X1)
+   0.07680    0.36278 ^ _126_/ZN (OAI33_X1)
+   0.03304    0.39582 v _127_/ZN (NOR4_X1)
+   0.02287    0.41869 ^ _132_/ZN (NAND2_X1)
+   0.05755    0.47624 ^ _133_/Z (BUF_X1)
+   0.02042    0.49666 v _139_/ZN (AOI211_X1)
+   0.09275    0.58940 ^ _142_/ZN (NOR4_X1)
+   0.05623    0.64563 v _159_/ZN (NAND2_X1)
+   0.07949    0.72512 ^ _173_/ZN (AOI211_X1)
+   0.04497    0.77009 ^ _178_/ZN (OR3_X1)
+   0.02697    0.79706 v _186_/ZN (OAI221_X1)
+   0.00000    0.79706 v N432 (out)
+              0.79706   data arrival time
+
+   1.10000    1.10000   clock virt_clk (rise edge)
+   0.00000    1.10000   clock network delay (ideal)
+   0.00000    1.10000   clock reconvergence pessimism
+  -1.00000    0.10000   output external delay
+              0.10000   data required time
+---------------------------------------------------------------
+              0.10000   data required time
+             -0.79706   data arrival time
+---------------------------------------------------------------
+             -0.69706   slack (VIOLATED)
+
+
+Startpoint: N30 (input port clocked by virt_clk)
+Endpoint: N421 (output port clocked by virt_clk)
+Path Group: virt_clk
+Path Type: max
+
+     Delay       Time   Description
+---------------------------------------------------------------
+   0.00000    0.00000   clock virt_clk (rise edge)
+   0.00000    0.00000   clock network delay (ideal)
+   0.00000    0.00000 v input external delay
+   0.00083    0.00083 v N30 (in)
+   0.01645    0.01728 ^ _100_/ZN (INV_X1)
+   0.01923    0.03651 v _101_/ZN (OAI22_X1)
+   0.22903    0.26554 ^ _102_/ZN (NOR4_X1)
+   0.02044    0.28597 v _125_/ZN (AOI21_X1)
+   0.07680    0.36278 ^ _126_/ZN (OAI33_X1)
+   0.03304    0.39582 v _127_/ZN (NOR4_X1)
+   0.02287    0.41869 ^ _132_/ZN (NAND2_X1)
+   0.05755    0.47624 ^ _133_/Z (BUF_X1)
+   0.02042    0.49666 v _139_/ZN (AOI211_X1)
+   0.09275    0.58940 ^ _142_/ZN (NOR4_X1)
+   0.05623    0.64563 v _159_/ZN (NAND2_X1)
+   0.08247    0.72809 ^ _172_/ZN (AOI221_X1)
+   0.02270    0.75080 v _174_/ZN (NOR4_X1)
+   0.03290    0.78369 ^ _175_/ZN (AOI21_X1)
+   0.00000    0.78369 ^ N421 (out)
+              0.78369   data arrival time
+
+   1.10000    1.10000   clock virt_clk (rise edge)
+   0.00000    1.10000   clock network delay (ideal)
+   0.00000    1.10000   clock reconvergence pessimism
+  -1.00000    0.10000   output external delay
+              0.10000   data required time
+---------------------------------------------------------------
+              0.10000   data required time
+             -0.78369   data arrival time
+---------------------------------------------------------------
+             -0.68369   slack (VIOLATED)
+
+
+Startpoint: N30 (input port clocked by virt_clk)
+Endpoint: N430 (output port clocked by virt_clk)
+Path Group: virt_clk
+Path Type: max
+
+     Delay       Time   Description
+---------------------------------------------------------------
+   0.00000    0.00000   clock virt_clk (rise edge)
+   0.00000    0.00000   clock network delay (ideal)
+   0.00000    0.00000 v input external delay
+   0.00083    0.00083 v N30 (in)
+   0.01645    0.01728 ^ _100_/ZN (INV_X1)
+   0.01923    0.03651 v _101_/ZN (OAI22_X1)
+   0.22903    0.26554 ^ _102_/ZN (NOR4_X1)
+   0.02044    0.28597 v _125_/ZN (AOI21_X1)
+   0.07680    0.36278 ^ _126_/ZN (OAI33_X1)
+   0.03304    0.39582 v _127_/ZN (NOR4_X1)
+   0.02287    0.41869 ^ _132_/ZN (NAND2_X1)
+   0.05755    0.47624 ^ _133_/Z (BUF_X1)
+   0.02042    0.49666 v _139_/ZN (AOI211_X1)
+   0.09275    0.58940 ^ _142_/ZN (NOR4_X1)
+   0.05623    0.64563 v _159_/ZN (NAND2_X1)
+   0.08247    0.72809 ^ _172_/ZN (AOI221_X1)
+   0.02270    0.75080 v _174_/ZN (NOR4_X1)
+   0.01533    0.76613 ^ _176_/ZN (INV_X1)
+   0.00000    0.76613 ^ N430 (out)
+              0.76613   data arrival time
+
+   1.10000    1.10000   clock virt_clk (rise edge)
+   0.00000    1.10000   clock network delay (ideal)
+   0.00000    1.10000   clock reconvergence pessimism
+  -1.00000    0.10000   output external delay
+              0.10000   data required time
+---------------------------------------------------------------
+              0.10000   data required time
+             -0.76613   data arrival time
+---------------------------------------------------------------
+             -0.66613   slack (VIOLATED)
+
+
+Startpoint: N30 (input port clocked by virt_clk)
+Endpoint: N370 (output port clocked by virt_clk)
+Path Group: virt_clk
+Path Type: max
+
+     Delay       Time   Description
+---------------------------------------------------------------
+   0.00000    0.00000   clock virt_clk (rise edge)
+   0.00000    0.00000   clock network delay (ideal)
+   0.00000    0.00000 v input external delay
+   0.00083    0.00083 v N30 (in)
+   0.01645    0.01728 ^ _100_/ZN (INV_X1)
+   0.01923    0.03651 v _101_/ZN (OAI22_X1)
+   0.22903    0.26554 ^ _102_/ZN (NOR4_X1)
+   0.02044    0.28597 v _125_/ZN (AOI21_X1)
+   0.07680    0.36278 ^ _126_/ZN (OAI33_X1)
+   0.03304    0.39582 v _127_/ZN (NOR4_X1)
+   0.02287    0.41869 ^ _132_/ZN (NAND2_X1)
+   0.05755    0.47624 ^ _133_/Z (BUF_X1)
+   0.02042    0.49666 v _139_/ZN (AOI211_X1)
+   0.09275    0.58940 ^ _142_/ZN (NOR4_X1)
+   0.05623    0.64563 v _159_/ZN (NAND2_X1)
+   0.00000    0.64563 v N370 (out)
+              0.64563   data arrival time
+
+   1.10000    1.10000   clock virt_clk (rise edge)
+   0.00000    1.10000   clock network delay (ideal)
+   0.00000    1.10000   clock reconvergence pessimism
+  -1.00000    0.10000   output external delay
+              0.10000   data required time
+---------------------------------------------------------------
+              0.10000   data required time
+             -0.64563   data arrival time
+---------------------------------------------------------------
+             -0.54563   slack (VIOLATED)
+
+
+Startpoint: N30 (input port clocked by virt_clk)
+Endpoint: N329 (output port clocked by virt_clk)
+Path Group: virt_clk
+Path Type: max
+
+     Delay       Time   Description
+---------------------------------------------------------------
+   0.00000    0.00000   clock virt_clk (rise edge)
+   0.00000    0.00000   clock network delay (ideal)
+   0.00000    0.00000 v input external delay
+   0.00083    0.00083 v N30 (in)
+   0.01645    0.01728 ^ _100_/ZN (INV_X1)
+   0.01923    0.03651 v _101_/ZN (OAI22_X1)
+   0.22903    0.26554 ^ _102_/ZN (NOR4_X1)
+   0.02044    0.28597 v _125_/ZN (AOI21_X1)
+   0.07680    0.36278 ^ _126_/ZN (OAI33_X1)
+   0.03304    0.39582 v _127_/ZN (NOR4_X1)
+   0.02287    0.41869 ^ _132_/ZN (NAND2_X1)
+   0.05755    0.47624 ^ _133_/Z (BUF_X1)
+   0.00000    0.47624 ^ N329 (out)
+              0.47624   data arrival time
+
+   1.10000    1.10000   clock virt_clk (rise edge)
+   0.00000    1.10000   clock network delay (ideal)
+   0.00000    1.10000   clock reconvergence pessimism
+  -1.00000    0.10000   output external delay
+              0.10000   data required time
+---------------------------------------------------------------
+              0.10000   data required time
+             -0.47624   data arrival time
+---------------------------------------------------------------
+             -0.37624   slack (VIOLATED)
+
+
+Startpoint: N30 (input port clocked by virt_clk)
+Endpoint: N223 (output port clocked by virt_clk)
+Path Group: virt_clk
+Path Type: max
+
+     Delay       Time   Description
+---------------------------------------------------------------
+   0.00000    0.00000   clock virt_clk (rise edge)
+   0.00000    0.00000   clock network delay (ideal)
+   0.00000    0.00000 v input external delay
+   0.00083    0.00083 v N30 (in)
+   0.01645    0.01728 ^ _100_/ZN (INV_X1)
+   0.01923    0.03651 v _101_/ZN (OAI22_X1)
+   0.22903    0.26554 ^ _102_/ZN (NOR4_X1)
+   0.05322    0.31876 ^ _105_/ZN (AND2_X1)
+   0.00717    0.32593 v _106_/ZN (INV_X1)
+   0.00000    0.32593 v N223 (out)
+              0.32593   data arrival time
+
+   1.10000    1.10000   clock virt_clk (rise edge)
+   0.00000    1.10000   clock network delay (ideal)
+   0.00000    1.10000   clock reconvergence pessimism
+  -1.00000    0.10000   output external delay
+              0.10000   data required time
+---------------------------------------------------------------
+              0.10000   data required time
+             -0.32593   data arrival time
+---------------------------------------------------------------
+             -0.22593   slack (VIOLATED)
+
+

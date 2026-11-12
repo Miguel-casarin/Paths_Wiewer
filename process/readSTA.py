@@ -456,3 +456,32 @@ class Read_steps:
             }
 
         return by_step
+
+
+
+class Read_paths:
+    def __init__(self, sta_output: str):
+        self.sta_output = sta_output
+
+    def get_paths(self) -> dict:
+        # {1: {"_100_": 0.01728, "_101_": 0.03651, ...}, 2: {...}, ...}
+        result = {}
+        path_id = 0
+
+        PAT_CELL_TIME = re.compile(r"^-?\d+\.\d+\s+(-?\d+\.\d+)\s+[v^]\s+(_\d+_)/")
+        
+        for line in self.sta_output.splitlines():
+            line = line.strip()
+
+            if line.startswith("Startpoint:"):
+                path_id += 1
+                result[path_id] = {}
+                continue
+
+            m = PAT_CELL_TIME.match(line)
+            if m and path_id > 0:
+                result[path_id][m.group(2)] = float(m.group(1))
+
+        return result
+
+        
