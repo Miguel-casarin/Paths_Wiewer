@@ -12,6 +12,7 @@ from run import runSTA, runSteps
 from utils import files, SaveFeatures, divide
 from make_dots import circuitDot
 from process.sizeOrder import Size_order
+from process.stepProcess import Step_content
 
 s = time.perf_counter()
 
@@ -244,11 +245,14 @@ features_data = features_dict if isinstance(features_dict, dict) else vars(featu
 files.save_dict_as_json(features_data, f"{OUT_PATH}/features_{DESIGN}.json")
 files.save_dict_as_json(SIZE_PROCESS, f"{OUT_PATH}/steps_{DESIGN}.json")
 
+step_content = Step_content(DESIGN, CELLS_TO_UPSIZE)
+
 app.App(
     features_dict=features_dict,
     size_process=SIZE_PROCESS,
     design=DESIGN,
     design_inputs=design_inputs,
     design_outputs=design_outputs,
+    on_step_dot=step_content.build_step_dot,
 ).mainloop()
 

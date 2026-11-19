@@ -464,11 +464,11 @@ class Read_paths:
         self.sta_output = sta_output
 
     def get_paths(self) -> dict:
-        # {1: {"_100_": 0.01728, "_101_": 0.03651, ...}, 2: {...}, ...}
+        # {1: {"_100_": {"delay": 0.01645, "time": 0.01728}, ...}, 2: {...}, ...}
         result = {}
         path_id = 0
 
-        PAT_CELL_TIME = re.compile(r"^-?\d+\.\d+\s+(-?\d+\.\d+)\s+[v^]\s+(_\d+_)/")
+        PAT_CELL_TIME = re.compile(r"^(-?\d+\.\d+)\s+(-?\d+\.\d+)\s+[v^]\s+(_\d+_)/")
         
         for line in self.sta_output.splitlines():
             line = line.strip()
@@ -480,7 +480,10 @@ class Read_paths:
 
             m = PAT_CELL_TIME.match(line)
             if m and path_id > 0:
-                result[path_id][m.group(2)] = float(m.group(1))
+                result[path_id][m.group(3)] = {
+                    "delay": float(m.group(1)),
+                    "time": float(m.group(2)),
+                }
 
         return result
 

@@ -72,5 +72,5 @@ def color_plot(dot_file: str, dict_values: dict, path_id: int):
         arrivals.paint_path(dot_file, dict_values, path_id, color)
         
 
-color_plot(f"{TEMP_PATH}/{DESIGN}.dot", dict_times, 7)
+color_plot(f"{TEMP_PATH}/{DESIGN}.dot", dict_times, 2)
     

@@ -54,16 +54,17 @@ def steps_changes(search_obj, steps: list) -> list:
 
 
 class PathsTab(ttk.Frame):
-    def __init__(self, master, design=None):
+    def __init__(self, master, design=None, on_step_dot=None):
         super().__init__(master, padding=10)
         self.design = design
+        self.on_step_dot = on_step_dot
         self.dot_file = f"{INPUT_PATH}/{design}.dot" if design else None
         self.steps_file = f"{INPUT_PATH}/{design}_cumulativo.txt" if design else None
 
         self.search_obj = None
         self.steps = []
         self.current_dif = {}
-        self._subgraph = None  # DotSubgraph, criado só quando necessário
+        self._subgraphs = {}  # dot_path -> DotSubgraph, criado só quando necessário
 
         # Coluna 0 (lista) expande, coluna 1 (botões) fixa
         self.columnconfigure(0, weight=1)
@@ -108,7 +109,7 @@ class PathsTab(ttk.Frame):
         self.listbox.delete(0, tk.END)
         self.steps = []
         self.current_dif = {}
-        self._subgraph = None
+        self._subgraphs = {}
         self.status_var.set("Select a step")
 
         if not self.design:
@@ -130,10 +131,17 @@ class PathsTab(ttk.Frame):
             self.listbox.insert(tk.END, f"Step {step}")
         log_shell(f"Paths: {len(self.steps)} steps carregados.", "ok")
 
-    def _get_subgraph(self) -> DotSubgraph:
-        if self._subgraph is None:
-            self._subgraph = DotSubgraph(self.dot_file)
-        return self._subgraph
+    def _step_dot_file(self, step: int) -> str:
+        """Solicita o .dot do step ao callback de main.py, ou usa o .dot base."""
+        if self.on_step_dot is not None:
+            return self.on_step_dot(step)
+        return self.dot_file
+
+    def _get_subgraph(self, step: int = None) -> DotSubgraph:
+        dot_path = self._step_dot_file(step) if step is not None else self.dot_file
+        if dot_path not in self._subgraphs:
+            self._subgraphs[dot_path] = DotSubgraph(dot_path)
+        return self._subgraphs[dot_path]
 
     def _selected_step(self):
         """Step selecionado, ou None (com aviso no terminal)."""
@@ -287,7 +295,7 @@ class PathsTab(ttk.Frame):
         os.makedirs(TEMP_PATH, exist_ok=True)
         out_dot = f"{TEMP_PATH}/{step}_{self.design}_paths.dot"
         try:
-            self._get_subgraph().generate(gates, out_dot)
+            self._get_subgraph(step).generate(gates, out_dot)
         except Exception as e:
             log_shell(f"Paths: erro ao gerar o grafo: {e}", "error")
             return
@@ -319,7 +327,8 @@ class PathsTab(ttk.Frame):
         """Copia o .dot do circuito pintando de vermelho as arestas dos paths."""
         os.makedirs(TEMP_PATH, exist_ok=True)
         out_dot = f"{TEMP_PATH}/{step}_{self.design}_circuit.dot"
-        gate_to_node = self._get_subgraph().gate_to_node
+        dot_path = self._step_dot_file(step)
+        gate_to_node = self._get_subgraph(step).gate_to_node
 
         pairs_to_color = set()
         for path_str in paths_dict.values():
@@ -331,7 +340,7 @@ class PathsTab(ttk.Frame):
                 if u_id and v_id:
                     pairs_to_color.add((u_id, v_id))
 
-        with open(self.dot_file, "r", encoding="utf-8") as f:
+        with open(dot_path, "r", encoding="utf-8") as f:
             lines = f.readlines()
 
         new_lines = []

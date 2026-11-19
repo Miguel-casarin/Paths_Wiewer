@@ -11,7 +11,8 @@ from gui.tkPaths import PathsTab
 
 class App(tk.Tk):
     def __init__(self, on_run=None, features_dict=None, size_process=None,
-                 design=None, design_inputs=None, design_outputs=None):
+                 design=None, design_inputs=None, design_outputs=None,
+                 on_step_dot=None):
         super().__init__()
         self.title("Gate Sizing")
         self.geometry("1000x700")
@@ -25,7 +26,7 @@ class App(tk.Tk):
         self.notebook = ttk.Notebook(paned)
         self.tab_features = FeaturesTab(self.notebook, features_dict, size_process)
         self.tab_cones = ConesTab(self.notebook, design, design_inputs, design_outputs)
-        self.tab_paths = PathsTab(self.notebook, design)
+        self.tab_paths = PathsTab(self.notebook, design, on_step_dot=on_step_dot)
 
         self.notebook.add(self.tab_features, text="Features")
         self.notebook.add(self.tab_cones, text="Cones")
